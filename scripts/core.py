@@ -76,6 +76,7 @@ def classify(row,source):
     if len(source['categories'])>1:category='phone' if re.search(r'\bpixel\s*(?:\d|fold|phone)',text,re.I) else 'ai'
     if category=='phone':
         if not re.search(r'iphone|smartphone|\bphone\b|galaxy\s*[szamf]\s*\d|pixel\s*(?:\d|fold)|redmagic\s*\d|手机',text,re.I):return None
+        if re.search(r'accessor|\bcases?\s+for\b|\bchargers?\b|配件|保护壳|充电器',title,re.I):return None
         if re.search(r'\b(case|cases|charger|cooler|earbuds|headphones|watch|tablet)\b',title,re.I) and not re.search(r'\bphone|iphone|smartphone|手机',title,re.I):return None
     else:
         if not re.search(r'model|gpt|claude|gemini|gemma|grok|qwen|deepseek|mistral|ministral|codestral|devstral|voxtral|flux|stable diffusion|nemotron|cosmos|nova|titan|phi-|mai-|midjourney|模型|minimax|sora|veo|imagen|lyria',text,re.I):return None
@@ -91,7 +92,8 @@ def classify(row,source):
     if re.search(preview,title,re.I):event_type='preview'
     elif re.search(available,title,re.I):event_type='available'
     elif re.search(launched,title,re.I):event_type='release'
-    elif re.search(r'^(?:gpt|claude|gemini|grok|qwen|deepseek|mistral|flux|minimax)[ -](?:[a-z]+[ -]){0,2}[vV]?\d',title,re.I) or (category=='ai' and explicit_lead):event_type='signal'
+    elif re.search(r'^(?:gpt|claude|gemini|grok|qwen|deepseek|mistral|flux|minimax)[ -]?(?:[a-z]+[ -]){0,2}[vV]?\d',title,re.I) or (category=='ai' and explicit_lead):event_type='signal'
+    elif category=='phone' and re.search(r'^(?:the\s+)?(?:pixel\s*\d|iphone\s*\d|honor\s+(?:magic\s*)?\d)',title,re.I):event_type='signal'
     else:return None
     return category,event_type
 
