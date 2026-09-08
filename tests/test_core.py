@@ -70,7 +70,7 @@ class StateTests(unittest.TestCase):
     def test_old_and_future_dates_excluded(self):
         self.assertEqual(merge_items([],[self.item(date='2020-01-01T00:00:00+00:00'),self.item(url='https://a.com/future',date='2027-01-01T00:00:00+00:00')],self.now),[])
     def test_dates(self):
-        for value in ['2026年9月8日','September 8, 2026','Sep 8, 2026','2026-09-08']:
+        for value in ['2026骞�9鏈�8鏃�','September 8, 2026','Sep 8, 2026','2026-09-08']:
             self.assertTrue(parse_date(value).startswith('2026-09-08'))
         self.assertIsNone(parse_date('not a date'))
 
