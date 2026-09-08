@@ -1,0 +1,81 @@
+name: Collect and publish Release Radar
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-radar-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install collector dependencies
+        run: pip install requests==2.32.5 beautifulsoup4==4.14.3
+      - name: Import initial source if present
+        run: |
+          if [ -f bootstrap.py ]; then
+            python bootstrap.py
+            python -m unittest discover -s tests -v
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Initialize Release Radar collector, website and source documentation"
+            git push
+          fi
+      - name: Restore previous collection
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/state.json
+          key: radar-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: radar-state-
+      - name: Run parsing and classification tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect official announcements
+        run: python scripts/collect.py
+      - name: Generate site and source documentation
+        run: python scripts/build.py
+      - name: Save collection for next run
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/state.json
+          key: radar-state-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Upload source status and documentation
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-audit
+          path: |
+            docs/
+            data/latest.json
+          retention-days: 30
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
