@@ -1,0 +1,8 @@
+{
+  "name": "发布雷达",
+  "description": "手机新品与 AI 模型的官方发布动态",
+  "url": "https://ganghao1024.github.io/release-radar/",
+  "repository": "https://github.com/ganghao1024/release-radar",
+  "retention_days": 180,
+  "schedule": "每小时检查，实际执行时间以 GitHub Actions 为准"
+}

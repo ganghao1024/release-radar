@@ -1,0 +1,4171 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-08T10:32:13.158920+00:00",
+  "last_success_at": "2026-09-08T10:32:13.158920+00:00",
+  "collection_status": "partial",
+  "items": [
+    {
+      "id": "d5ea4bcadd66b1af0f56",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "summary": "WeatherNext 3, our most advanced global weather AI model, is now in Search, Gemini, Maps, Google Maps Platform, and Cloud.",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+      "published_at": "2026-09-03T15:02:08+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind",
+        "google"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准",
+      "related_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3",
+        "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model"
+      ]
+    },
+    {
+      "id": "039a4975e102cb538c36",
+      "category": "ai",
+      "event_type": "release",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "published_at": "2026-09-03T11:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "355be2cf6d2d139c093a",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "published_at": "2026-09-02T16:18:31+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind",
+        "google"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准",
+      "related_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber",
+        "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber"
+      ]
+    },
+    {
+      "id": "90ba20dc32b53edf52ab",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "summary": "",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "published_at": "2026-08-27T16:11:32+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:32:13.158920+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "f13ed961c41442c5dabe",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Grok 4.6 on Microsoft Foundry",
+      "summary": "Grok 4.6 is now available via Microsoft Foundry.",
+      "url": "https://x.ai/news/grok-4-6-microsoft-foundry",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "xai"
+      ],
+      "source_name": "xAI News",
+      "catalog_ids": [
+        "ai-063"
+      ],
+      "vendor": "xAI",
+      "family": "Grok",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "f2610a1bfd1fbf1f7700",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Grok 4.6 on Gemini Enterprise Agent Platform",
+      "summary": "Grok 4.6 is now available via Gemini Enterprise Agent Platform.",
+      "url": "https://x.ai/news/grok-4-6-vertex-ai",
+      "published_at": "2026-08-21T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "xai"
+      ],
+      "source_name": "xAI News",
+      "catalog_ids": [
+        "ai-063"
+      ],
+      "vendor": "xAI",
+      "family": "Grok",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "aacd3776a4d3e0782764",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Grok 4.6 on Amazon Bedrock",
+      "summary": "Grok 4.6 is now available via Amazon Bedrock.",
+      "url": "https://x.ai/news/grok-4-6-amazon-bedrock",
+      "published_at": "2026-08-19T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "xai"
+      ],
+      "source_name": "xAI News",
+      "catalog_ids": [
+        "ai-063"
+      ],
+      "vendor": "xAI",
+      "family": "Grok",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "2a68d8196b36b7f0a632",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Grok 4.6 in GitHub Copilot",
+      "summary": "Grok 4.6, our latest coding model, is now available in GitHub Copilot.",
+      "url": "https://x.ai/news/grok-4-6-github-copilot",
+      "published_at": "2026-08-14T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "xai"
+      ],
+      "source_name": "xAI News",
+      "catalog_ids": [
+        "ai-063"
+      ],
+      "vendor": "xAI",
+      "family": "Grok",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "d8531b3bebbaf6641750",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Gemini 3.7 Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "published_at": "2026-08-13T17:04:18+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "c0986f6628d189a1ac37",
+      "category": "ai",
+      "event_type": "preview",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "published_at": "2026-08-13T10:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "fe54be560bf95e2c3b31",
+      "category": "ai",
+      "event_type": "release",
+      "title": "DeepSeek-V4-Pro GA Release",
+      "summary": "We’re launching DeepSeek-V4-Pro today! 🚀",
+      "url": "https://api-docs.deepseek.com/news/news260813",
+      "published_at": "2026-08-13T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepseek"
+      ],
+      "source_name": "DeepSeek 更新公告",
+      "catalog_ids": [
+        "ai-037"
+      ],
+      "vendor": "DeepSeek",
+      "family": "DeepSeek",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "6a5d8f6ebd28047e76ba",
+      "category": "phone",
+      "event_type": "release",
+      "title": "New accessories for Pixel 11 phones are here.",
+      "summary": "Google is rolling out new Pixel accessories as part of Made by Google",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/new-pixelsnap-accessories-cases-ring-stand",
+      "published_at": "2026-08-12T14:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:28:39.121721+00:00",
+      "source_ids": [
+        "pixel"
+      ],
+      "source_name": "Google Pixel 专栏",
+      "catalog_ids": [
+        "phone-017"
+      ],
+      "vendor": "Google",
+      "family": "Pixel",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "2a2f843857ab65590c57",
+      "category": "phone",
+      "event_type": "release",
+      "title": "7 can’t-miss updates from our Pixel 11 launch",
+      "summary": "The new Pixel 11 lineup offers the best of Gemini Intelligence and brings our biggest camera upgrades in years.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-features",
+      "published_at": "2026-08-12T14:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:28:39.121721+00:00",
+      "source_ids": [
+        "pixel"
+      ],
+      "source_name": "Google Pixel 专栏",
+      "catalog_ids": [
+        "phone-017"
+      ],
+      "vendor": "Google",
+      "family": "Pixel",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "66321e57ae7a50676743",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Grok 4.6",
+      "summary": "Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work.",
+      "url": "https://x.ai/news/grok-4-6",
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "xai"
+      ],
+      "source_name": "xAI News",
+      "catalog_ids": [
+        "ai-063"
+      ],
+      "vendor": "xAI",
+      "family": "Grok",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "c86dbbd852742c76061e",
+      "category": "phone",
+      "event_type": "release",
+      "title": "HONOR Launches Revolutionary Robot Phone, Ushering a New Era of Cinematic Mobile Filmmaking and Embodied AI",
+      "summary": "Global leading AI device ecosystem company HONOR today announced the launch of the highly anticipated HONOR Robot Phone.",
+      "url": "https://www.honor.com/global/news/honor-robot-phone-launch",
+      "published_at": "2026-08-11T16:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:30:03.223935+00:00",
+      "source_ids": [
+        "honor"
+      ],
+      "source_name": "HONOR 全球新闻",
+      "catalog_ids": [
+        "phone-002"
+      ],
+      "vendor": "荣耀",
+      "family": "HONOR",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "1007367946328b2be188",
+      "category": "ai",
+      "event_type": "release",
+      "title": "In-region inference, open models, and new European infrastructure for sovereign AI.",
+      "summary": "Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world.",
+      "url": "https://mistral.ai/news/regional-inference-open-models-new-compute",
+      "published_at": "2026-08-11T12:00:27+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "mistral"
+      ],
+      "source_name": "Mistral AI News",
+      "catalog_ids": [
+        "ai-064"
+      ],
+      "vendor": "Mistral AI",
+      "family": "Mistral / Codestral / Devstral / Voxtral",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "5d3aff0aba5d0b8a3f2e",
+      "category": "ai",
+      "event_type": "available",
+      "title": "Daybreak models are now available on AWS",
+      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "published_at": "2026-08-11T10:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "61f8622f16d38d847e83",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Grok Bot",
+      "summary": "Grok Bot is your team of always-on agents. They have their own computer, work inside tools and apps like you do, and keep working 24/7.",
+      "url": "https://x.ai/news/introducing-grok-bot",
+      "published_at": "2026-08-11T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "xai"
+      ],
+      "source_name": "xAI News",
+      "catalog_ids": [
+        "ai-063"
+      ],
+      "vendor": "xAI",
+      "family": "Grok",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "c8c2521853f8de9e5b68",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "published_at": "2026-07-30T15:00:59+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:32:13.158920+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "c469407231ee79071f88",
+      "category": "ai",
+      "event_type": "release",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control",
+      "published_at": "2026-07-29T16:02:10+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "a4ea106eb8577dfb86b9",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Grok Voice Think Fast 2.0",
+      "summary": "Introducing our most capable speech-to-speech voice model.",
+      "url": "https://x.ai/news/grok-voice-think-fast-2",
+      "published_at": "2026-07-29T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "xai"
+      ],
+      "source_name": "xAI News",
+      "catalog_ids": [
+        "ai-063"
+      ],
+      "vendor": "xAI",
+      "family": "Grok",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "bba16244a7af23a2584c",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "summary": "",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots",
+      "published_at": "2026-07-28T13:21:37+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:32:13.158920+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "18c2752a6b578c482a37",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Version 8.2",
+      "summary": "Hi everyone! We are launching our V8.2 image model today. This update focuses on aesthetics and image quality and personalization. Images should be more creative, bold, sophisticated, edgy and fresh Random situations where you'd get a low quality image should be dramatically reduced Personalization will \"understand&",
+      "url": "https://updates.midjourney.com/version-8-2",
+      "published_at": "2026-07-24T22:18:48+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "midjourney"
+      ],
+      "source_name": "Midjourney Updates",
+      "catalog_ids": [
+        "ai-081"
+      ],
+      "vendor": "Midjourney",
+      "family": "Midjourney",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "c34a327604b5be4a7c98",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Claude Opus 5",
+      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "published_at": "2026-07-24T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "anthropic"
+      ],
+      "source_name": "Anthropic News",
+      "catalog_ids": [
+        "ai-060"
+      ],
+      "vendor": "Anthropic",
+      "family": "Claude",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "5e431bbf920c7ba36bf7",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
+      "published_at": "2026-07-21T15:16:30+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "969044f63ea6bfa4b049",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber",
+      "published_at": "2026-07-17T15:00:11+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "b98a594ec40e8f26c796",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "published_at": "2026-07-09T13:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "e19fbb75eb44457e4dbe",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "url": "https://openai.com/index/gpt-5-6",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "07aa5a8a45a2217e5772",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "3fb14968493dc68260e4",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing GPT-Live",
+      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "30f48121decc708b123e",
+      "category": "ai",
+      "event_type": "preview",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "published_at": "2026-06-26T10:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "72286a4388d15b6d1666",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
+      "published_at": "2026-06-24T16:30:01+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "c000018ba1f035750668",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "url": "https://openai.com/index/deployment-simulation",
+      "published_at": "2026-06-16T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "9857f10d363c35f1ef14",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
+      "published_at": "2026-06-09T14:10:19+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "ba562226725de1d8218d",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "published_at": "2026-06-03T13:15:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "4df8e51cae93fe19b42b",
+      "category": "ai",
+      "event_type": "available",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "published_at": "2026-06-01T10:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "d8f0f010d646003cb912",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Meet Stable Audio 3.0, the model family built for artistic experimentation with open-weight models",
+      "summary": "We're releasing Stable Audio 3.0, a model family trained on fully licensed data, designed to be the foundation for what the audio community builds next.",
+      "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
+      "published_at": "2026-05-20T14:59:27+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:28:39.121721+00:00",
+      "source_ids": [
+        "stability"
+      ],
+      "source_name": "Stability AI News",
+      "catalog_ids": [
+        "ai-080"
+      ],
+      "vendor": "Stability AI",
+      "family": "Stable Diffusion",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "91307b35ce1086c0f727",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni",
+      "published_at": "2026-05-17T19:50:57+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "ddd743696c43b3408f1c",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "summary": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery",
+      "published_at": "2026-05-17T13:50:34+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "48f9d09d245a6b5acb0f",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "summary": "Gemini 3.5 is built to help you execute complex, agentic workflows.",
+      "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action",
+      "published_at": "2026-05-15T22:50:12+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "24a3c172de4842007009",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Advancing voice intelligence with new models in the API",
+      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "published_at": "2026-05-07T10:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "01a8b52eee8198f545c2",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "published_at": "2026-05-05T10:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "6e896b3d9b106602e3b9",
+      "category": "phone",
+      "event_type": "release",
+      "title": "Apple 推出新款彩虹系列表带、表盘及墙纸",
+      "summary": "Apple 推出新款彩虹版回环式运动表带、表盘及 iPhone 和 iPad 墙纸。",
+      "url": "https://www.apple.com.cn/newsroom/2026/05/apple-introduces-a-new-rainbow-collection",
+      "published_at": "2026-05-04T00:00:00+00:00",
+      "updated_at": "2026-05-04T13:01:30.890000+00:00",
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "apple-cn"
+      ],
+      "source_name": "Apple 中国 Newsroom",
+      "catalog_ids": [
+        "phone-015"
+      ],
+      "vendor": "Apple",
+      "family": "iPhone",
+      "region": "中国",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "4606c8869e887acedc95",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "url": "https://deepmind.google/blog/ai-co-clinician",
+      "published_at": "2026-04-30T12:14:15+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "c0948e70c4f5d841804e",
+      "category": "ai",
+      "event_type": "preview",
+      "title": "DeepSeek V4 Preview Release",
+      "summary": "🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "published_at": "2026-04-24T00:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepseek"
+      ],
+      "source_name": "DeepSeek 更新公告",
+      "catalog_ids": [
+        "ai-037"
+      ],
+      "vendor": "DeepSeek",
+      "family": "DeepSeek",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "dfe7e0c6ff3981408b54",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing GPT-5.5",
+      "summary": "This post introduced GPT-5.5, a model built for complex tasks like coding, research, and data analysis across tools.",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "published_at": "2026-04-23T11:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "0f697d747d9cd2888acc",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing ChatGPT Images 2.0",
+      "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
+      "published_at": "2026-04-21T12:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "078f0d540d88f110b4f1",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing GPT-Rosalind for life sciences research",
+      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+      "url": "https://openai.com/index/introducing-gpt-rosalind",
+      "published_at": "2026-04-16T01:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "c9ba203858442ed83b23",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech",
+      "published_at": "2026-04-15T16:03:19+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "7ccaf115118f727218a8",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6",
+      "published_at": "2026-04-13T15:52:13+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:32:13.158920+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "771bd525f121f624fa1a",
+      "category": "ai",
+      "event_type": "signal",
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "summary": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable",
+      "published_at": "2026-03-26T15:23:35+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "deepmind"
+      ],
+      "source_name": "Google DeepMind",
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "8afdb503cc5635992639",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "published_at": "2026-03-17T10:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "openai"
+      ],
+      "source_name": "OpenAI News",
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    },
+    {
+      "id": "b071b3375367ea5044cf",
+      "category": "ai",
+      "event_type": "release",
+      "title": "Introducing Mistral Small 4",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "url": "https://mistral.ai/news/mistral-small-4",
+      "published_at": "2026-03-16T21:00:00+00:00",
+      "updated_at": null,
+      "first_seen_at": "2026-09-08T10:20:58.055135+00:00",
+      "source_ids": [
+        "mistral"
+      ],
+      "source_name": "Mistral AI News",
+      "catalog_ids": [
+        "ai-064"
+      ],
+      "vendor": "Mistral AI",
+      "family": "Mistral / Codestral / Devstral / Voxtral",
+      "region": "全球 / 原文地区",
+      "confidence": "rule",
+      "evidence": "依据官方标题与摘要规则筛选，发布阶段以原文为准"
+    }
+  ],
+  "source_status": [
+    {
+      "id": "anthropic",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 14,
+      "matched_count": 1,
+      "newest_article_at": "2026-09-01T00:00:00+00:00",
+      "final_url": "https://www.anthropic.com/news",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 27.74
+    },
+    {
+      "id": "apple-cn",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 20,
+      "matched_count": 1,
+      "newest_article_at": "2026-05-04T00:00:00+00:00",
+      "final_url": "https://www.apple.com.cn/newsroom/rss-feed.rss",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 4.73
+    },
+    {
+      "id": "apple-global",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 20,
+      "matched_count": 0,
+      "newest_article_at": null,
+      "final_url": "https://www.apple.com/newsroom/rss-feed.rss",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 0.72
+    },
+    {
+      "id": "apple-ml",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 10,
+      "matched_count": 0,
+      "newest_article_at": "2026-09-02T00:00:00+00:00",
+      "final_url": "https://machinelearning.apple.com/rss.xml",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 0.48
+    },
+    {
+      "id": "aws",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 20,
+      "matched_count": 0,
+      "newest_article_at": "2026-09-07T14:24:08+00:00",
+      "final_url": "https://aws.amazon.com/blogs/aws/feed/",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 2.03
+    },
+    {
+      "id": "bfl",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "error",
+      "raw_count": 0,
+      "matched_count": 0,
+      "error": "No article links matched; adapter needs review (possibly dynamic page)",
+      "duration_seconds": 2.92
+    },
+    {
+      "id": "deepmind",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 100,
+      "matched_count": 26,
+      "newest_article_at": "2026-09-03T15:02:08+00:00",
+      "final_url": "https://deepmind.google/blog/rss.xml",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 1.91
+    },
+    {
+      "id": "deepseek",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 8,
+      "matched_count": 5,
+      "newest_article_at": "2026-08-13T00:00:00+00:00",
+      "final_url": "https://api-docs.deepseek.com/updates/",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 5.88
+    },
+    {
+      "id": "google",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 20,
+      "matched_count": 2,
+      "newest_article_at": "2026-09-07T08:00:00+00:00",
+      "final_url": "https://blog.google/rss/",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 1.52
+    },
+    {
+      "id": "honor",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 13,
+      "matched_count": 2,
+      "newest_article_at": "2026-08-11T16:00:00+00:00",
+      "final_url": "https://www.honor.com/global/news/",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 37.53
+    },
+    {
+      "id": "microsoft",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 10,
+      "matched_count": 0,
+      "newest_article_at": "2026-08-31T16:00:00+00:00",
+      "final_url": "https://www.microsoft.com/en-us/research/feed/",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 4.5
+    },
+    {
+      "id": "midjourney",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 15,
+      "matched_count": 1,
+      "newest_article_at": "2026-09-03T19:44:24+00:00",
+      "final_url": "https://updates.midjourney.com/rss/",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 1.41
+    },
+    {
+      "id": "minimax",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 1,
+      "matched_count": 1,
+      "newest_article_at": "2026-01-23T00:00:00+00:00",
+      "final_url": "https://www.minimax.io/news",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 3.31
+    },
+    {
+      "id": "mistral",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 16,
+      "matched_count": 2,
+      "newest_article_at": "2026-08-24T16:02:41.650000+00:00",
+      "final_url": "https://mistral.ai/news/",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 40.55
+    },
+    {
+      "id": "nothing",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "error",
+      "raw_count": 0,
+      "matched_count": 0,
+      "error": "Feed contains unsupported DTD",
+      "duration_seconds": 2.25
+    },
+    {
+      "id": "nvidia",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 18,
+      "matched_count": 0,
+      "newest_article_at": "2026-09-03T16:00:59+00:00",
+      "final_url": "https://blogs.nvidia.com/feed/",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 1.55
+    },
+    {
+      "id": "openai",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 1173,
+      "matched_count": 61,
+      "newest_article_at": "2026-09-07T00:00:00+00:00",
+      "final_url": "https://openai.com/news/rss.xml",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 2.19
+    },
+    {
+      "id": "pixel",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 20,
+      "matched_count": 2,
+      "newest_article_at": "2026-08-25T20:00:00+00:00",
+      "final_url": "https://blog.google/products-and-platforms/devices/pixel/rss/",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 1.56
+    },
+    {
+      "id": "qwen",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 44,
+      "matched_count": 6,
+      "newest_article_at": "2025-09-22T20:00:00+00:00",
+      "final_url": "https://qwenlm.github.io/blog/index.xml",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 1.41
+    },
+    {
+      "id": "redmagic",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 30,
+      "matched_count": 2,
+      "newest_article_at": "2026-08-03T12:05:24+00:00",
+      "final_url": "https://global.redmagic.gg/blogs/news.atom",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 2.24
+    },
+    {
+      "id": "samsung",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "error",
+      "raw_count": 0,
+      "matched_count": 0,
+      "error": "HTTPSConnectionPool(host='news.samsung.com', port=443): Read timed out. (read timeout=22)",
+      "duration_seconds": 47.17
+    },
+    {
+      "id": "stability",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 20,
+      "matched_count": 2,
+      "newest_article_at": "2026-08-25T14:59:22+00:00",
+      "final_url": "https://stability.ai/news-updates?format=rss",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 2.38
+    },
+    {
+      "id": "xai",
+      "checked_at": "2026-09-08T10:32:13.158920+00:00",
+      "status": "ok",
+      "raw_count": 16,
+      "matched_count": 7,
+      "newest_article_at": "2026-09-04T00:00:00+00:00",
+      "final_url": "https://x.ai/news",
+      "detail_errors": 0,
+      "error": null,
+      "duration_seconds": 33.47
+    }
+  ],
+  "catalog": [
+    {
+      "id": "phone-001",
+      "category": "phone",
+      "vendor": "华为",
+      "family": "Huawei",
+      "aliases": [
+        "华为",
+        "HUAWEI",
+        "Mate",
+        "Pura",
+        "nova"
+      ],
+      "official_url": "https://consumer.huawei.com/cn/press/"
+    },
+    {
+      "id": "phone-002",
+      "category": "phone",
+      "vendor": "荣耀",
+      "family": "HONOR",
+      "aliases": [
+        "荣耀",
+        "Honor",
+        "Magic"
+      ],
+      "official_url": "https://www.honor.com/cn/"
+    },
+    {
+      "id": "phone-003",
+      "category": "phone",
+      "vendor": "小米",
+      "family": "Xiaomi",
+      "aliases": [
+        "小米",
+        "Xiaomi"
+      ],
+      "official_url": "https://www.mi.com/global/discover/news/"
+    },
+    {
+      "id": "phone-004",
+      "category": "phone",
+      "vendor": "小米",
+      "family": "REDMI",
+      "aliases": [
+        "红米",
+        "Redmi"
+      ],
+      "official_url": "https://www.mi.com/"
+    },
+    {
+      "id": "phone-005",
+      "category": "phone",
+      "vendor": "小米",
+      "family": "POCO",
+      "aliases": [
+        "POCO"
+      ],
+      "official_url": "https://www.mi.com/global/"
+    },
+    {
+      "id": "phone-006",
+      "category": "phone",
+      "vendor": "OPPO",
+      "family": "OPPO",
+      "aliases": [
+        "OPPO",
+        "Find",
+        "Reno"
+      ],
+      "official_url": "https://www.oppo.com/en/newsroom/"
+    },
+    {
+      "id": "phone-007",
+      "category": "phone",
+      "vendor": "OPPO",
+      "family": "OnePlus",
+      "aliases": [
+        "一加",
+        "OnePlus"
+      ],
+      "official_url": "https://www.oneplus.com/global/press"
+    },
+    {
+      "id": "phone-008",
+      "category": "phone",
+      "vendor": "realme",
+      "family": "realme",
+      "aliases": [
+        "真我",
+        "realme"
+      ],
+      "official_url": "https://www.realme.com/global/newsroom"
+    },
+    {
+      "id": "phone-009",
+      "category": "phone",
+      "vendor": "vivo",
+      "family": "vivo",
+      "aliases": [
+        "vivo"
+      ],
+      "official_url": "https://www.vivo.com/en/about-vivo/news"
+    },
+    {
+      "id": "phone-010",
+      "category": "phone",
+      "vendor": "vivo",
+      "family": "iQOO",
+      "aliases": [
+        "iQOO"
+      ],
+      "official_url": "https://www.iqoo.com/cn/"
+    },
+    {
+      "id": "phone-011",
+      "category": "phone",
+      "vendor": "中兴",
+      "family": "ZTE",
+      "aliases": [
+        "中兴",
+        "ZTE",
+        "Axon"
+      ],
+      "official_url": "https://www.ztedevices.com/en/news/"
+    },
+    {
+      "id": "phone-012",
+      "category": "phone",
+      "vendor": "努比亚",
+      "family": "nubia",
+      "aliases": [
+        "努比亚",
+        "nubia"
+      ],
+      "official_url": "https://www.nubia.com/"
+    },
+    {
+      "id": "phone-013",
+      "category": "phone",
+      "vendor": "努比亚",
+      "family": "REDMAGIC",
+      "aliases": [
+        "红魔",
+        "REDMAGIC",
+        "Red Magic"
+      ],
+      "official_url": "https://global.redmagic.gg/blogs/news"
+    },
+    {
+      "id": "phone-014",
+      "category": "phone",
+      "vendor": "魅族",
+      "family": "Meizu",
+      "aliases": [
+        "魅族",
+        "Meizu"
+      ],
+      "official_url": "https://www.meizu.com/"
+    },
+    {
+      "id": "phone-015",
+      "category": "phone",
+      "vendor": "Apple",
+      "family": "iPhone",
+      "aliases": [
+        "苹果",
+        "Apple",
+        "iPhone"
+      ],
+      "official_url": "https://www.apple.com/newsroom/"
+    },
+    {
+      "id": "phone-016",
+      "category": "phone",
+      "vendor": "Samsung",
+      "family": "Galaxy",
+      "aliases": [
+        "三星",
+        "Samsung",
+        "Galaxy"
+      ],
+      "official_url": "https://news.samsung.com/global/"
+    },
+    {
+      "id": "phone-017",
+      "category": "phone",
+      "vendor": "Google",
+      "family": "Pixel",
+      "aliases": [
+        "谷歌",
+        "Google",
+        "Pixel"
+      ],
+      "official_url": "https://blog.google/products/devices/pixel/"
+    },
+    {
+      "id": "phone-018",
+      "category": "phone",
+      "vendor": "联想",
+      "family": "Motorola",
+      "aliases": [
+        "摩托罗拉",
+        "Motorola",
+        "moto"
+      ],
+      "official_url": "https://motorolanews.com/"
+    },
+    {
+      "id": "phone-019",
+      "category": "phone",
+      "vendor": "Nothing",
+      "family": "Nothing Phone",
+      "aliases": [
+        "Nothing",
+        "Nothing Phone"
+      ],
+      "official_url": "https://nothing.tech/blogs/news"
+    },
+    {
+      "id": "phone-020",
+      "category": "phone",
+      "vendor": "Nothing",
+      "family": "CMF",
+      "aliases": [
+        "CMF"
+      ],
+      "official_url": "https://cmf.tech/"
+    },
+    {
+      "id": "phone-021",
+      "category": "phone",
+      "vendor": "传音",
+      "family": "TECNO",
+      "aliases": [
+        "TECNO",
+        "传音"
+      ],
+      "official_url": "https://www.tecno-mobile.com/news/"
+    },
+    {
+      "id": "phone-022",
+      "category": "phone",
+      "vendor": "传音",
+      "family": "Infinix",
+      "aliases": [
+        "Infinix"
+      ],
+      "official_url": "https://www.infinixmobility.com/"
+    },
+    {
+      "id": "phone-023",
+      "category": "phone",
+      "vendor": "传音",
+      "family": "itel",
+      "aliases": [
+        "itel"
+      ],
+      "official_url": "https://www.itel-life.com/"
+    },
+    {
+      "id": "phone-024",
+      "category": "phone",
+      "vendor": "Sony",
+      "family": "Xperia",
+      "aliases": [
+        "索尼",
+        "Sony",
+        "Xperia"
+      ],
+      "official_url": "https://www.sony.com/en/SonyInfo/News/Press/"
+    },
+    {
+      "id": "phone-025",
+      "category": "phone",
+      "vendor": "SHARP",
+      "family": "AQUOS",
+      "aliases": [
+        "夏普",
+        "SHARP",
+        "AQUOS"
+      ],
+      "official_url": "https://global.sharp/corporate/news/"
+    },
+    {
+      "id": "phone-026",
+      "category": "phone",
+      "vendor": "ASUS",
+      "family": "Zenfone / ROG Phone",
+      "aliases": [
+        "华硕",
+        "ASUS",
+        "Zenfone",
+        "ROG Phone"
+      ],
+      "official_url": "https://press.asus.com/"
+    },
+    {
+      "id": "phone-027",
+      "category": "phone",
+      "vendor": "HMD",
+      "family": "HMD",
+      "aliases": [
+        "HMD"
+      ],
+      "official_url": "https://www.hmd.com/en_int/press"
+    },
+    {
+      "id": "phone-028",
+      "category": "phone",
+      "vendor": "Fairphone",
+      "family": "Fairphone",
+      "aliases": [
+        "Fairphone"
+      ],
+      "official_url": "https://www.fairphone.com/en/"
+    },
+    {
+      "id": "phone-029",
+      "category": "phone",
+      "vendor": "Lava",
+      "family": "Lava",
+      "aliases": [
+        "Lava",
+        "Agni"
+      ],
+      "official_url": "https://www.lavamobiles.com/"
+    },
+    {
+      "id": "phone-030",
+      "category": "phone",
+      "vendor": "Ulefone",
+      "family": "Ulefone",
+      "aliases": [
+        "Ulefone",
+        "Armor"
+      ],
+      "official_url": "https://www.ulefone.com/"
+    },
+    {
+      "id": "phone-031",
+      "category": "phone",
+      "vendor": "DOOGEE",
+      "family": "DOOGEE",
+      "aliases": [
+        "DOOGEE"
+      ],
+      "official_url": "https://www.doogee.cc/"
+    },
+    {
+      "id": "phone-032",
+      "category": "phone",
+      "vendor": "Blackview",
+      "family": "Blackview",
+      "aliases": [
+        "Blackview"
+      ],
+      "official_url": "https://www.blackview.hk/"
+    },
+    {
+      "id": "phone-033",
+      "category": "phone",
+      "vendor": "OUKITEL",
+      "family": "OUKITEL",
+      "aliases": [
+        "OUKITEL"
+      ],
+      "official_url": "https://oukitel.com/"
+    },
+    {
+      "id": "phone-034",
+      "category": "phone",
+      "vendor": "Unihertz",
+      "family": "Unihertz",
+      "aliases": [
+        "Unihertz",
+        "Jelly",
+        "Titan"
+      ],
+      "official_url": "https://www.unihertz.com/"
+    },
+    {
+      "id": "phone-035",
+      "category": "phone",
+      "vendor": "AGM",
+      "family": "AGM",
+      "aliases": [
+        "AGM"
+      ],
+      "official_url": "https://www.agmmobile.com/"
+    },
+    {
+      "id": "phone-036",
+      "category": "phone",
+      "vendor": "8849",
+      "family": "8849",
+      "aliases": [
+        "8849",
+        "Tank"
+      ],
+      "official_url": "https://8849tech.com/"
+    },
+    {
+      "id": "ai-037",
+      "category": "ai",
+      "vendor": "DeepSeek",
+      "family": "DeepSeek",
+      "aliases": [
+        "深度求索",
+        "DeepSeek"
+      ],
+      "official_url": "https://api-docs.deepseek.com/news/"
+    },
+    {
+      "id": "ai-038",
+      "category": "ai",
+      "vendor": "阿里巴巴",
+      "family": "Qwen / Wan",
+      "aliases": [
+        "通义千问",
+        "Qwen",
+        "通义万相",
+        "Wan"
+      ],
+      "official_url": "https://qwen.ai/blog"
+    },
+    {
+      "id": "ai-039",
+      "category": "ai",
+      "vendor": "字节跳动",
+      "family": "Seed / Doubao",
+      "aliases": [
+        "豆包",
+        "Doubao",
+        "Seed",
+        "Seedance",
+        "Seedream"
+      ],
+      "official_url": "https://seed.bytedance.com/en/"
+    },
+    {
+      "id": "ai-040",
+      "category": "ai",
+      "vendor": "腾讯",
+      "family": "Hunyuan",
+      "aliases": [
+        "混元",
+        "Hunyuan"
+      ],
+      "official_url": "https://hunyuan.tencent.com/"
+    },
+    {
+      "id": "ai-041",
+      "category": "ai",
+      "vendor": "百度",
+      "family": "ERNIE",
+      "aliases": [
+        "文心",
+        "ERNIE"
+      ],
+      "official_url": "https://yiyan.baidu.com/"
+    },
+    {
+      "id": "ai-042",
+      "category": "ai",
+      "vendor": "智谱 / Z.ai",
+      "family": "GLM / CogView / CogVideo",
+      "aliases": [
+        "智谱",
+        "Z.ai",
+        "GLM",
+        "CogView",
+        "CogVideo"
+      ],
+      "official_url": "https://z.ai/blog"
+    },
+    {
+      "id": "ai-043",
+      "category": "ai",
+      "vendor": "月之暗面",
+      "family": "Kimi",
+      "aliases": [
+        "月之暗面",
+        "Moonshot",
+        "Kimi"
+      ],
+      "official_url": "https://www.kimi.com/"
+    },
+    {
+      "id": "ai-044",
+      "category": "ai",
+      "vendor": "MiniMax",
+      "family": "MiniMax / Hailuo",
+      "aliases": [
+        "MiniMax",
+        "海螺",
+        "Hailuo"
+      ],
+      "official_url": "https://www.minimax.io/news"
+    },
+    {
+      "id": "ai-045",
+      "category": "ai",
+      "vendor": "阶跃星辰",
+      "family": "Step",
+      "aliases": [
+        "阶跃星辰",
+        "StepFun",
+        "Step"
+      ],
+      "official_url": "https://www.stepfun.com/"
+    },
+    {
+      "id": "ai-046",
+      "category": "ai",
+      "vendor": "科大讯飞",
+      "family": "Spark",
+      "aliases": [
+        "讯飞星火",
+        "Spark"
+      ],
+      "official_url": "https://xinghuo.xfyun.cn/"
+    },
+    {
+      "id": "ai-047",
+      "category": "ai",
+      "vendor": "商汤",
+      "family": "SenseNova",
+      "aliases": [
+        "日日新",
+        "SenseNova",
+        "SenseTime"
+      ],
+      "official_url": "https://www.sensetime.com/en/news"
+    },
+    {
+      "id": "ai-048",
+      "category": "ai",
+      "vendor": "华为",
+      "family": "Pangu",
+      "aliases": [
+        "盘古",
+        "Pangu"
+      ],
+      "official_url": "https://www.huaweicloud.com/product/pangu.html"
+    },
+    {
+      "id": "ai-049",
+      "category": "ai",
+      "vendor": "快手",
+      "family": "Kling",
+      "aliases": [
+        "可灵",
+        "Kling"
+      ],
+      "official_url": "https://klingai.com/"
+    },
+    {
+      "id": "ai-050",
+      "category": "ai",
+      "vendor": "生数科技",
+      "family": "Vidu",
+      "aliases": [
+        "Vidu",
+        "生数"
+      ],
+      "official_url": "https://www.vidu.com/"
+    },
+    {
+      "id": "ai-051",
+      "category": "ai",
+      "vendor": "爱诗科技",
+      "family": "PixVerse",
+      "aliases": [
+        "PixVerse",
+        "拍我"
+      ],
+      "official_url": "https://pixverse.ai/"
+    },
+    {
+      "id": "ai-052",
+      "category": "ai",
+      "vendor": "昆仑万维",
+      "family": "Skywork",
+      "aliases": [
+        "天工",
+        "Skywork"
+      ],
+      "official_url": "https://skywork.ai/"
+    },
+    {
+      "id": "ai-053",
+      "category": "ai",
+      "vendor": "百川智能",
+      "family": "Baichuan",
+      "aliases": [
+        "百川",
+        "Baichuan"
+      ],
+      "official_url": "https://www.baichuan-ai.com/"
+    },
+    {
+      "id": "ai-054",
+      "category": "ai",
+      "vendor": "零一万物",
+      "family": "Yi",
+      "aliases": [
+        "零一万物",
+        "01.AI",
+        "Yi"
+      ],
+      "official_url": "https://www.01.ai/"
+    },
+    {
+      "id": "ai-055",
+      "category": "ai",
+      "vendor": "面壁智能",
+      "family": "MiniCPM",
+      "aliases": [
+        "面壁",
+        "MiniCPM"
+      ],
+      "official_url": "https://github.com/OpenBMB"
+    },
+    {
+      "id": "ai-056",
+      "category": "ai",
+      "vendor": "Jina AI",
+      "family": "Embeddings / Reranker",
+      "aliases": [
+        "Jina",
+        "Jina Embeddings",
+        "Jina Reranker"
+      ],
+      "official_url": "https://jina.ai/news/"
+    },
+    {
+      "id": "ai-057",
+      "category": "ai",
+      "vendor": "上海人工智能实验室（研究机构）",
+      "family": "InternLM / InternVL",
+      "aliases": [
+        "书生",
+        "InternLM",
+        "InternVL"
+      ],
+      "official_url": "https://www.shlab.org.cn/"
+    },
+    {
+      "id": "ai-058",
+      "category": "ai",
+      "vendor": "北京智源人工智能研究院（研究机构）",
+      "family": "BGE / Emu",
+      "aliases": [
+        "智源",
+        "BAAI",
+        "BGE",
+        "Emu"
+      ],
+      "official_url": "https://www.baai.ac.cn/"
+    },
+    {
+      "id": "ai-059",
+      "category": "ai",
+      "vendor": "OpenAI",
+      "family": "GPT / o-series / gpt-oss / Sora",
+      "aliases": [
+        "OpenAI",
+        "GPT",
+        "o1",
+        "o3",
+        "o4",
+        "gpt-oss",
+        "Sora"
+      ],
+      "official_url": "https://openai.com/news/"
+    },
+    {
+      "id": "ai-060",
+      "category": "ai",
+      "vendor": "Anthropic",
+      "family": "Claude",
+      "aliases": [
+        "Anthropic",
+        "Claude",
+        "Opus",
+        "Sonnet",
+        "Haiku"
+      ],
+      "official_url": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "ai-061",
+      "category": "ai",
+      "vendor": "Google DeepMind",
+      "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+      "aliases": [
+        "Gemini",
+        "Gemma",
+        "Imagen",
+        "Veo",
+        "Lyria"
+      ],
+      "official_url": "https://deepmind.google/blog/"
+    },
+    {
+      "id": "ai-062",
+      "category": "ai",
+      "vendor": "Meta",
+      "family": "Llama",
+      "aliases": [
+        "Meta",
+        "Llama"
+      ],
+      "official_url": "https://ai.meta.com/blog/"
+    },
+    {
+      "id": "ai-063",
+      "category": "ai",
+      "vendor": "xAI",
+      "family": "Grok",
+      "aliases": [
+        "xAI",
+        "Grok"
+      ],
+      "official_url": "https://x.ai/news"
+    },
+    {
+      "id": "ai-064",
+      "category": "ai",
+      "vendor": "Mistral AI",
+      "family": "Mistral / Codestral / Devstral / Voxtral",
+      "aliases": [
+        "Mistral",
+        "Ministral",
+        "Codestral",
+        "Devstral",
+        "Voxtral"
+      ],
+      "official_url": "https://mistral.ai/news"
+    },
+    {
+      "id": "ai-065",
+      "category": "ai",
+      "vendor": "Cohere",
+      "family": "Command / Aya / Embed / Rerank",
+      "aliases": [
+        "Cohere",
+        "Command",
+        "Aya",
+        "Embed",
+        "Rerank"
+      ],
+      "official_url": "https://cohere.com/blog"
+    },
+    {
+      "id": "ai-066",
+      "category": "ai",
+      "vendor": "AI21 Labs",
+      "family": "Jamba",
+      "aliases": [
+        "AI21",
+        "Jamba"
+      ],
+      "official_url": "https://www.ai21.com/blog/"
+    },
+    {
+      "id": "ai-067",
+      "category": "ai",
+      "vendor": "Amazon / AWS",
+      "family": "Nova / Titan",
+      "aliases": [
+        "Amazon Nova",
+        "Amazon Titan",
+        "Nova",
+        "Titan"
+      ],
+      "official_url": "https://aws.amazon.com/blogs/aws/"
+    },
+    {
+      "id": "ai-068",
+      "category": "ai",
+      "vendor": "Microsoft",
+      "family": "Phi / MAI",
+      "aliases": [
+        "Microsoft",
+        "Phi",
+        "MAI"
+      ],
+      "official_url": "https://www.microsoft.com/en-us/research/blog/"
+    },
+    {
+      "id": "ai-069",
+      "category": "ai",
+      "vendor": "NVIDIA",
+      "family": "Nemotron / Cosmos",
+      "aliases": [
+        "NVIDIA",
+        "Nemotron",
+        "Cosmos"
+      ],
+      "official_url": "https://blogs.nvidia.com/"
+    },
+    {
+      "id": "ai-070",
+      "category": "ai",
+      "vendor": "IBM",
+      "family": "Granite",
+      "aliases": [
+        "IBM",
+        "Granite"
+      ],
+      "official_url": "https://research.ibm.com/blog"
+    },
+    {
+      "id": "ai-071",
+      "category": "ai",
+      "vendor": "Apple",
+      "family": "OpenELM / 公开模型",
+      "aliases": [
+        "Apple",
+        "OpenELM"
+      ],
+      "official_url": "https://machinelearning.apple.com/"
+    },
+    {
+      "id": "ai-072",
+      "category": "ai",
+      "vendor": "Ai2（研究机构）",
+      "family": "OLMo / Molmo / Tülu",
+      "aliases": [
+        "Ai2",
+        "Allen Institute",
+        "OLMo",
+        "Molmo",
+        "Tulu",
+        "Tülu"
+      ],
+      "official_url": "https://allenai.org/blog"
+    },
+    {
+      "id": "ai-073",
+      "category": "ai",
+      "vendor": "TII（研究机构）",
+      "family": "Falcon",
+      "aliases": [
+        "TII",
+        "Falcon"
+      ],
+      "official_url": "https://www.tii.ae/"
+    },
+    {
+      "id": "ai-074",
+      "category": "ai",
+      "vendor": "Liquid AI",
+      "family": "LFM",
+      "aliases": [
+        "Liquid AI",
+        "LFM"
+      ],
+      "official_url": "https://www.liquid.ai/blog"
+    },
+    {
+      "id": "ai-075",
+      "category": "ai",
+      "vendor": "Arcee AI",
+      "family": "Arcee",
+      "aliases": [
+        "Arcee"
+      ],
+      "official_url": "https://www.arcee.ai/blog"
+    },
+    {
+      "id": "ai-076",
+      "category": "ai",
+      "vendor": "Naver",
+      "family": "HyperCLOVA",
+      "aliases": [
+        "Naver",
+        "HyperCLOVA"
+      ],
+      "official_url": "https://navercorp.com/"
+    },
+    {
+      "id": "ai-077",
+      "category": "ai",
+      "vendor": "LG AI Research",
+      "family": "EXAONE",
+      "aliases": [
+        "LG AI Research",
+        "EXAONE"
+      ],
+      "official_url": "https://www.lgresearch.ai/"
+    },
+    {
+      "id": "ai-078",
+      "category": "ai",
+      "vendor": "Upstage",
+      "family": "Solar",
+      "aliases": [
+        "Upstage",
+        "Solar"
+      ],
+      "official_url": "https://www.upstage.ai/blog"
+    },
+    {
+      "id": "ai-079",
+      "category": "ai",
+      "vendor": "Black Forest Labs",
+      "family": "FLUX",
+      "aliases": [
+        "Black Forest Labs",
+        "BFL",
+        "FLUX"
+      ],
+      "official_url": "https://bfl.ai/announcements"
+    },
+    {
+      "id": "ai-080",
+      "category": "ai",
+      "vendor": "Stability AI",
+      "family": "Stable Diffusion",
+      "aliases": [
+        "Stability AI",
+        "Stable Diffusion",
+        "Stable Audio"
+      ],
+      "official_url": "https://stability.ai/news"
+    },
+    {
+      "id": "ai-081",
+      "category": "ai",
+      "vendor": "Midjourney",
+      "family": "Midjourney",
+      "aliases": [
+        "Midjourney"
+      ],
+      "official_url": "https://updates.midjourney.com/"
+    },
+    {
+      "id": "ai-082",
+      "category": "ai",
+      "vendor": "Ideogram",
+      "family": "Ideogram",
+      "aliases": [
+        "Ideogram"
+      ],
+      "official_url": "https://about.ideogram.ai/blog"
+    },
+    {
+      "id": "ai-083",
+      "category": "ai",
+      "vendor": "Recraft",
+      "family": "Recraft",
+      "aliases": [
+        "Recraft"
+      ],
+      "official_url": "https://www.recraft.ai/blog"
+    },
+    {
+      "id": "ai-084",
+      "category": "ai",
+      "vendor": "Adobe",
+      "family": "Firefly",
+      "aliases": [
+        "Adobe",
+        "Firefly"
+      ],
+      "official_url": "https://blog.adobe.com/"
+    },
+    {
+      "id": "ai-085",
+      "category": "ai",
+      "vendor": "Runway",
+      "family": "Gen / Runway",
+      "aliases": [
+        "Runway",
+        "Gen-3",
+        "Gen-4"
+      ],
+      "official_url": "https://runwayml.com/research"
+    },
+    {
+      "id": "ai-086",
+      "category": "ai",
+      "vendor": "Luma AI",
+      "family": "Ray / Dream Machine",
+      "aliases": [
+        "Luma",
+        "Ray",
+        "Dream Machine"
+      ],
+      "official_url": "https://lumalabs.ai/"
+    },
+    {
+      "id": "ai-087",
+      "category": "ai",
+      "vendor": "Pika",
+      "family": "Pika",
+      "aliases": [
+        "Pika"
+      ],
+      "official_url": "https://pika.art/"
+    },
+    {
+      "id": "ai-088",
+      "category": "ai",
+      "vendor": "ElevenLabs",
+      "family": "Eleven / 语音模型",
+      "aliases": [
+        "ElevenLabs",
+        "Eleven"
+      ],
+      "official_url": "https://elevenlabs.io/blog"
+    },
+    {
+      "id": "ai-089",
+      "category": "ai",
+      "vendor": "Deepgram",
+      "family": "Nova / Aura",
+      "aliases": [
+        "Deepgram",
+        "Nova",
+        "Aura"
+      ],
+      "official_url": "https://deepgram.com/learn"
+    },
+    {
+      "id": "ai-090",
+      "category": "ai",
+      "vendor": "AssemblyAI",
+      "family": "Universal",
+      "aliases": [
+        "AssemblyAI",
+        "Universal"
+      ],
+      "official_url": "https://www.assemblyai.com/blog/"
+    },
+    {
+      "id": "ai-091",
+      "category": "ai",
+      "vendor": "Speechmatics",
+      "family": "语音模型",
+      "aliases": [
+        "Speechmatics"
+      ],
+      "official_url": "https://www.speechmatics.com/"
+    },
+    {
+      "id": "ai-092",
+      "category": "ai",
+      "vendor": "Cartesia",
+      "family": "Sonic",
+      "aliases": [
+        "Cartesia",
+        "Sonic"
+      ],
+      "official_url": "https://cartesia.ai/blog"
+    },
+    {
+      "id": "ai-093",
+      "category": "ai",
+      "vendor": "Fish Audio",
+      "family": "语音模型",
+      "aliases": [
+        "Fish Audio",
+        "Fish Speech"
+      ],
+      "official_url": "https://fish.audio/"
+    },
+    {
+      "id": "ai-094",
+      "category": "ai",
+      "vendor": "Suno",
+      "family": "Suno",
+      "aliases": [
+        "Suno"
+      ],
+      "official_url": "https://suno.com/blog"
+    },
+    {
+      "id": "ai-095",
+      "category": "ai",
+      "vendor": "Udio",
+      "family": "Udio",
+      "aliases": [
+        "Udio"
+      ],
+      "official_url": "https://www.udio.com/blog"
+    }
+  ],
+  "sources": [
+    {
+      "id": "apple-cn",
+      "name": "Apple 中国 Newsroom",
+      "url": "https://www.apple.com/cn/newsroom/rss-feed.rss",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "phone-015"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "note": "中国地区发布；仅筛选 iPhone。",
+      "terms": [
+        "iPhone"
+      ]
+    },
+    {
+      "id": "apple-global",
+      "name": "Apple 全球 Newsroom",
+      "url": "https://www.apple.com/newsroom/rss-feed.rss",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "phone-015"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "note": "全球发布，与中国地区公告分别保留。",
+      "terms": [
+        "iPhone"
+      ]
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung Global Newsroom",
+      "url": "https://news.samsung.com/global/feed/rss",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "phone-016"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "note": "全站新闻，需要筛选手机；部分网络可能超时。",
+      "terms": [
+        "Galaxy S",
+        "Galaxy Z",
+        "Galaxy A",
+        "Galaxy M",
+        "Galaxy F",
+        "smartphone"
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google 官方博客",
+      "url": "https://blog.google/rss/",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "phone-017",
+        "ai-061"
+      ],
+      "categories": [
+        "phone",
+        "ai"
+      ],
+      "pattern": null,
+      "note": "全站 RSS，分别识别 Pixel 手机和 AI 模型。",
+      "terms": [
+        "Pixel",
+        "Gemini",
+        "Gemma",
+        "Imagen",
+        "Veo",
+        "Lyria"
+      ]
+    },
+    {
+      "id": "pixel",
+      "name": "Google Pixel 专栏",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/rss/",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "phone-017"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "note": "Pixel 专栏 RSS；排除耳机、手表和使用教程。",
+      "terms": [
+        "Pixel"
+      ]
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-061"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "note": "模型、研究与科学动态，过滤普通研究文章。",
+      "terms": []
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-059"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "note": "",
+      "terms": []
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen 官方技术博客",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-038"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "note": "官方博客存量订阅；若停止更新，页面会显示最近文章时间。",
+      "terms": []
+    },
+    {
+      "id": "nothing",
+      "name": "Nothing 官方新闻",
+      "url": "https://nothing.tech/blogs/news.atom",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "phone-019",
+        "phone-020"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "note": "",
+      "terms": [
+        "Phone",
+        "CMF"
+      ]
+    },
+    {
+      "id": "redmagic",
+      "name": "REDMAGIC 官方新闻",
+      "url": "https://global.redmagic.gg/blogs/news.atom",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "phone-012",
+        "phone-013"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "note": "",
+      "terms": [
+        "REDMAGIC",
+        "Red Magic",
+        "phone"
+      ]
+    },
+    {
+      "id": "honor",
+      "name": "HONOR 全球新闻",
+      "url": "https://www.honor.com/global/news/",
+      "kind": "html",
+      "enabled": true,
+      "catalog_ids": [
+        "phone-002"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": "/global/news/(?!archive)[^/?#]+/?$",
+      "note": "全球官网公告；国内与全球上市时间可能不同。",
+      "terms": [
+        "HONOR",
+        "Magic",
+        "phone"
+      ]
+    },
+    {
+      "id": "apple-ml",
+      "name": "Apple Machine Learning",
+      "url": "https://machinelearning.apple.com/rss.xml",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-071"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "note": "研究文章较多；仅保留明确的模型发布线索。",
+      "terms": []
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "kind": "html",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-060"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": "/(?:news/[^/?#]+|claude-[^/?#]+)$",
+      "note": "解析官方公告和文章元数据；不是原生 RSS。",
+      "terms": []
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek 更新公告",
+      "url": "https://api-docs.deepseek.com/updates",
+      "kind": "html",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-037"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": "/news/[^/?#]+/?$",
+      "note": "从文档更新索引发现官方发布公告。",
+      "terms": []
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI News",
+      "url": "https://mistral.ai/news",
+      "kind": "html",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-064"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": "/news/[^/?#]+/?$",
+      "note": "",
+      "terms": []
+    },
+    {
+      "id": "xai",
+      "name": "xAI News",
+      "url": "https://x.ai/news",
+      "kind": "html",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-063"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": "/news/[^/?#]+/?$",
+      "note": "",
+      "terms": []
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax News",
+      "url": "https://www.minimax.io/news",
+      "kind": "html",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-044"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": "/news/[^/?#]+/?$",
+      "note": "",
+      "terms": []
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA 官方博客",
+      "url": "https://blogs.nvidia.com/feed/",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-069"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "note": "只匹配模型家族，不收录普通 GPU 发布。",
+      "terms": [
+        "Nemotron",
+        "Cosmos"
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "AWS 官方博客",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-067"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "note": "只匹配 Amazon 自有模型，排除普通云服务新闻。",
+      "terms": [
+        "Amazon Nova",
+        "Amazon Titan"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-068"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "note": "",
+      "terms": [
+        "Phi-",
+        "Phi ",
+        "MAI-"
+      ]
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney Updates",
+      "url": "https://updates.midjourney.com/rss/",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-081"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "note": "",
+      "terms": []
+    },
+    {
+      "id": "stability",
+      "name": "Stability AI News",
+      "url": "https://stability.ai/news-updates?format=rss",
+      "kind": "rss",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-080"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "note": "",
+      "terms": []
+    },
+    {
+      "id": "bfl",
+      "name": "Black Forest Labs 公告",
+      "url": "https://bfl.ai/announcements",
+      "kind": "html",
+      "enabled": true,
+      "catalog_ids": [
+        "ai-079"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": "/announcements/[^/?#]+/?$",
+      "note": "",
+      "terms": []
+    },
+    {
+      "id": "candidate-2224b4ea26",
+      "name": "华为 · Huawei",
+      "url": "https://consumer.huawei.com/cn/press/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-001"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-9461d45d5b",
+      "name": "小米 · Xiaomi",
+      "url": "https://www.mi.com/global/discover/news/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-003"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-02a9a23d8a",
+      "name": "小米 · REDMI",
+      "url": "https://www.mi.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-004"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-eff4b62a2e",
+      "name": "小米 · POCO",
+      "url": "https://www.mi.com/global/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-005"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-aa572a5130",
+      "name": "OPPO · OPPO",
+      "url": "https://www.oppo.com/en/newsroom/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-006"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-1ca70f062d",
+      "name": "OPPO · OnePlus",
+      "url": "https://www.oneplus.com/global/press",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-007"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-4755821eba",
+      "name": "realme · realme",
+      "url": "https://www.realme.com/global/newsroom",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-008"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-a318d8dfce",
+      "name": "vivo · vivo",
+      "url": "https://www.vivo.com/en/about-vivo/news",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-009"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-21255a3621",
+      "name": "vivo · iQOO",
+      "url": "https://www.iqoo.com/cn/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-010"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-5e8224c622",
+      "name": "中兴 · ZTE",
+      "url": "https://www.ztedevices.com/en/news/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-011"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-9e99e080ff",
+      "name": "魅族 · Meizu",
+      "url": "https://www.meizu.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-014"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-e17b3b9586",
+      "name": "联想 · Motorola",
+      "url": "https://motorolanews.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-018"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-f3ababa55b",
+      "name": "传音 · TECNO",
+      "url": "https://www.tecno-mobile.com/news/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-021"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-ac60768377",
+      "name": "传音 · Infinix",
+      "url": "https://www.infinixmobility.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-022"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-fd388ebd93",
+      "name": "传音 · itel",
+      "url": "https://www.itel-life.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-023"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-b932d84d22",
+      "name": "Sony · Xperia",
+      "url": "https://www.sony.com/en/SonyInfo/News/Press/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-024"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-7daf86b5b3",
+      "name": "SHARP · AQUOS",
+      "url": "https://global.sharp/corporate/news/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-025"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-fc134bbb20",
+      "name": "ASUS · Zenfone / ROG Phone",
+      "url": "https://press.asus.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-026"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-2659563369",
+      "name": "HMD · HMD",
+      "url": "https://www.hmd.com/en_int/press",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-027"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-df48653b8b",
+      "name": "Fairphone · Fairphone",
+      "url": "https://www.fairphone.com/en/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-028"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-f100ae80ca",
+      "name": "Lava · Lava",
+      "url": "https://www.lavamobiles.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-029"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-d6f8245c83",
+      "name": "Ulefone · Ulefone",
+      "url": "https://www.ulefone.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-030"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-0cf3907e26",
+      "name": "DOOGEE · DOOGEE",
+      "url": "https://www.doogee.cc/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-031"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-d32df06276",
+      "name": "Blackview · Blackview",
+      "url": "https://www.blackview.hk/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-032"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-ef489bb8ac",
+      "name": "OUKITEL · OUKITEL",
+      "url": "https://oukitel.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-033"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-850b37a044",
+      "name": "Unihertz · Unihertz",
+      "url": "https://www.unihertz.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-034"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-0d48e8872f",
+      "name": "AGM · AGM",
+      "url": "https://www.agmmobile.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-035"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-90fd27cdb1",
+      "name": "8849 · 8849",
+      "url": "https://8849tech.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "phone-036"
+      ],
+      "categories": [
+        "phone"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-51bbfd2732",
+      "name": "字节跳动 · Seed / Doubao",
+      "url": "https://seed.bytedance.com/en/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-039"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-1122c4445c",
+      "name": "腾讯 · Hunyuan",
+      "url": "https://hunyuan.tencent.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-040"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-f7ac54dcc0",
+      "name": "百度 · ERNIE",
+      "url": "https://yiyan.baidu.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-041"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-8a7e9a0a2f",
+      "name": "智谱 / Z.ai · GLM / CogView / CogVideo",
+      "url": "https://z.ai/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-042"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-ce7bc5062a",
+      "name": "月之暗面 · Kimi",
+      "url": "https://www.kimi.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-043"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-206a10eca5",
+      "name": "阶跃星辰 · Step",
+      "url": "https://www.stepfun.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-045"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-57f97f53ed",
+      "name": "科大讯飞 · Spark",
+      "url": "https://xinghuo.xfyun.cn/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-046"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-0ed7e56743",
+      "name": "商汤 · SenseNova",
+      "url": "https://www.sensetime.com/en/news",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-047"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-b398102743",
+      "name": "华为 · Pangu",
+      "url": "https://www.huaweicloud.com/product/pangu.html",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-048"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-344baaa86f",
+      "name": "快手 · Kling",
+      "url": "https://klingai.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-049"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-eac38dcffa",
+      "name": "生数科技 · Vidu",
+      "url": "https://www.vidu.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-050"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-3f5e10b704",
+      "name": "爱诗科技 · PixVerse",
+      "url": "https://pixverse.ai/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-051"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-7aed76b3af",
+      "name": "昆仑万维 · Skywork",
+      "url": "https://skywork.ai/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-052"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-01363dcc60",
+      "name": "百川智能 · Baichuan",
+      "url": "https://www.baichuan-ai.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-053"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-90e1dcc482",
+      "name": "零一万物 · Yi",
+      "url": "https://www.01.ai/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-054"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-4d8c423c8c",
+      "name": "面壁智能 · MiniCPM",
+      "url": "https://github.com/OpenBMB",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-055"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-5c36bbb944",
+      "name": "Jina AI · Embeddings / Reranker",
+      "url": "https://jina.ai/news/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-056"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-c726a70e78",
+      "name": "上海人工智能实验室（研究机构） · InternLM / InternVL",
+      "url": "https://www.shlab.org.cn/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-057"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-f3789c2863",
+      "name": "北京智源人工智能研究院（研究机构） · BGE / Emu",
+      "url": "https://www.baai.ac.cn/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-058"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-be802b85da",
+      "name": "Meta · Llama",
+      "url": "https://ai.meta.com/blog/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-062"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-2a595ed03e",
+      "name": "Cohere · Command / Aya / Embed / Rerank",
+      "url": "https://cohere.com/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-065"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-41f56fe42d",
+      "name": "AI21 Labs · Jamba",
+      "url": "https://www.ai21.com/blog/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-066"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-b43bdd0c5b",
+      "name": "IBM · Granite",
+      "url": "https://research.ibm.com/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-070"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-44ba590cc3",
+      "name": "Ai2（研究机构） · OLMo / Molmo / Tülu",
+      "url": "https://allenai.org/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-072"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-3821f2f0d0",
+      "name": "TII（研究机构） · Falcon",
+      "url": "https://www.tii.ae/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-073"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-fd28a802cb",
+      "name": "Liquid AI · LFM",
+      "url": "https://www.liquid.ai/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-074"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-26312a9e0f",
+      "name": "Arcee AI · Arcee",
+      "url": "https://www.arcee.ai/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-075"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-ea6037d326",
+      "name": "Naver · HyperCLOVA",
+      "url": "https://navercorp.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-076"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-6d3f852b3f",
+      "name": "LG AI Research · EXAONE",
+      "url": "https://www.lgresearch.ai/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-077"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-149b35a67d",
+      "name": "Upstage · Solar",
+      "url": "https://www.upstage.ai/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-078"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-385d522b80",
+      "name": "Ideogram · Ideogram",
+      "url": "https://about.ideogram.ai/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-082"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-781978401a",
+      "name": "Recraft · Recraft",
+      "url": "https://www.recraft.ai/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-083"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-cc8feb5bcf",
+      "name": "Adobe · Firefly",
+      "url": "https://blog.adobe.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-084"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-8ef5faf39d",
+      "name": "Runway · Gen / Runway",
+      "url": "https://runwayml.com/research",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-085"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-800e16da48",
+      "name": "Luma AI · Ray / Dream Machine",
+      "url": "https://lumalabs.ai/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-086"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-06127651b7",
+      "name": "Pika · Pika",
+      "url": "https://pika.art/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-087"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-f4568dea2e",
+      "name": "ElevenLabs · Eleven / 语音模型",
+      "url": "https://elevenlabs.io/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-088"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-354d95134f",
+      "name": "Deepgram · Nova / Aura",
+      "url": "https://deepgram.com/learn",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-089"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-7068547ecf",
+      "name": "AssemblyAI · Universal",
+      "url": "https://www.assemblyai.com/blog/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-090"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-9835e4ad1f",
+      "name": "Speechmatics · 语音模型",
+      "url": "https://www.speechmatics.com/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-091"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-a124f7d12a",
+      "name": "Cartesia · Sonic",
+      "url": "https://cartesia.ai/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-092"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-fe40f11503",
+      "name": "Fish Audio · 语音模型",
+      "url": "https://fish.audio/",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-093"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-7fd1309c1e",
+      "name": "Suno · Suno",
+      "url": "https://suno.com/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-094"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    },
+    {
+      "id": "candidate-acf1fee0eb",
+      "name": "Udio · Udio",
+      "url": "https://www.udio.com/blog",
+      "kind": "candidate",
+      "enabled": false,
+      "catalog_ids": [
+        "ai-095"
+      ],
+      "categories": [
+        "ai"
+      ],
+      "pattern": null,
+      "terms": [],
+      "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    }
+  ],
+  "site": {
+    "name": "发布雷达",
+    "description": "手机新品与 AI 模型的官方发布动态",
+    "url": "https://ganghao1024.github.io/release-radar/",
+    "repository": "https://github.com/ganghao1024/release-radar",
+    "retention_days": 180,
+    "schedule": "每小时检查，实际执行时间以 GitHub Actions 为准"
+  }
+}

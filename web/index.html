@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1014">
+  <meta name="description" content="从官方来源追踪手机新品与 AI 模型发布，查看原文、发布阶段与数据源状态。">
+  <title>发布雷达 · 手机新品与 AI 模型</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="发布雷达 RSS" href="./feed.xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content">跳转到内容</a>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a href="#news" class="brand" aria-label="发布雷达首页"><img src="./favicon.svg" width="38" height="38" alt=""><span>发布雷达<small>RELEASE RADAR</small></span></a>
+      <div class="nav-label">工作台</div>
+      <nav class="navigation" aria-label="主导航">
+        <button data-view="news" class="nav-button active"><span aria-hidden="true">◈</span> 发布动态 <span class="nav-badge" id="nav-count">—</span></button>
+        <button data-view="sources" class="nav-button"><span aria-hidden="true">◉</span> 官方来源 <span class="tiny-dot"></span></button>
+        <button data-view="catalog" class="nav-button"><span aria-hidden="true">▦</span> 厂商目录</button>
+      </nav>
+      <div class="brand-section"><div class="nav-label">关注厂商 <span>本批记录</span></div><div id="quick-brands" class="quick-brands"></div></div>
+      <div class="sidebar-bottom"><span class="live-dot"></span> 官方信息，持续追踪<p>手机 · 大模型 · 多模态</p><a href="./feed.xml">订阅 RSS <span aria-hidden="true">↗</span></a></div>
+    </aside>
+    <div class="main-shell">
+      <header class="topbar"><div class="breadcrumb">工作台 <span>/</span> <strong id="breadcrumb-current">发布动态</strong></div><div class="top-actions"><span id="today"></span><a href="./docs/数据源列表.md" download>来源清单 <span aria-hidden="true">↓</span></a></div></header>
+      <main id="content" tabindex="-1">
+        <div id="loading" class="state-box" role="status"><div class="loader"></div><h1>正在接收发布信号</h1><p>读取官方来源的最新采集结果…</p></div>
+        <div id="error" class="state-box" hidden role="alert"><h1>暂时无法读取数据</h1><p id="error-message"></p><button id="retry" class="primary-button">重新加载</button></div>
+        <div id="workspace" hidden>
+          <section class="page-heading"><div><div class="eyebrow"><span class="live-dot"></span> YOUR NEXT BIG THING</div><h1 id="page-title">发布动态<span class="title-dot">.</span></h1><p id="page-description">新手机，新模型。从官方公告开始。</p></div><div class="update-status"><span class="sync-icon" aria-hidden="true">↻</span><div><strong id="updated">尚未更新</strong><small id="freshness">计划每小时检查</small></div></div></section>
+          <div id="stale-banner" class="notice" hidden></div>
+          <section id="news-view">
+            <div class="metrics" id="metrics"></div>
+            <div class="section-line"><h2>最近的发布信号</h2><span>原始日期排序 · 以官方原文为准</span></div>
+            <div class="spotlights" id="spotlights"></div>
+            <section class="feed-panel" aria-label="发布信息流">
+              <div class="feed-controls"><div class="channel-tabs" role="group" aria-label="资讯类别"><button data-category="all" class="selected">全部动态 <span id="count-all">0</span></button><button data-category="phone">手机新品 <span id="count-phone">0</span></button><button data-category="ai">AI 模型 <span id="count-ai">0</span></button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索厂商、型号、关键词" aria-label="搜索发布动态"><kbd>/</kbd></label></div>
+              <div class="filter-row"><label>厂商 <select id="vendor"><option value="all">全部厂商</option></select></label><label>阶段 <select id="event"><option value="all">全部阶段</option><option value="release">正式发布</option><option value="preview">预览 / 预告</option><option value="available">上线 / 开售</option><option value="signal">待核实线索</option></select></label><label>时间 <select id="range"><option value="30">近 30 天</option><option value="7">近 7 天</option><option value="180">近 180 天</option><option value="all">全部归档</option></select></label><button id="reset" class="text-button">重置筛选</button><span id="result-count" class="result-count" aria-live="polite"></span></div>
+              <div id="news-grid" class="news-grid"></div><div class="more-wrap"><button id="load-more" class="secondary-button" hidden>查看更多动态 <span aria-hidden="true">↓</span></button></div>
+            </section>
+          </section>
+          <section id="sources-view" hidden><div class="metrics" id="source-metrics"></div><div class="document-links"><a href="./docs/数据源列表.md" download>下载完整数据源列表 .md ↗</a><a href="./feed.xml">订阅本站聚合 RSS ↗</a></div><div class="notice neutral">成功表示本次可读取；“0 条匹配”不代表没有抓取。候选入口尚未启用，不能保证所有厂商均已覆盖。</div><div id="source-list"></div></section>
+          <section id="catalog-view" hidden><div class="document-links"><a href="./docs/厂商与品牌关系.md" download>下载厂商与品牌关系 .md ↗</a></div><div class="notice neutral">厂商 → 品牌／模型家族 → 别名 → 官方来源。别名限定在对应厂商来源中匹配；目录收录不等于已完成自动采集。</div><label class="search catalog-search"><span aria-hidden="true">⌕</span><input id="catalog-search" type="search" placeholder="搜索品牌、家族或别名" aria-label="搜索厂商目录"></label><div id="catalog-list"></div></section>
+          <footer class="page-footer"><span>RELEASE RADAR <i>·</i> 每一次发布，都有出处。</span><div><a href="./docs/部署与维护.md">部署与维护</a><a id="repo-link" hidden>GitHub ↗</a><span id="footer-count"></span></div></footer>
+        </div>
+      </main>
+    </div>
+  </div>
+  <noscript><p>请启用 JavaScript 查看可筛选的信息流，也可直接阅读 <a href="./feed.xml">RSS</a> 或 <a href="./docs/数据源列表.md">来源清单</a>。</p></noscript>
+</body>
+</html>

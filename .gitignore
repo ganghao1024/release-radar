@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
+dist/
+.cache/
+*.log
+node_modules/

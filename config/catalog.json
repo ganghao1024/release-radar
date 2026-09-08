@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "phone-001",
+    "category": "phone",
+    "vendor": "华为",
+    "family": "Huawei",
+    "aliases": [
+      "华为",
+      "HUAWEI",
+      "Mate",
+      "Pura",
+      "nova"
+    ],
+    "official_url": "https://consumer.huawei.com/cn/press/"
+  },
+  {
+    "id": "phone-002",
+    "category": "phone",
+    "vendor": "荣耀",
+    "family": "HONOR",
+    "aliases": [
+      "荣耀",
+      "Honor",
+      "Magic"
+    ],
+    "official_url": "https://www.honor.com/cn/"
+  },
+  {
+    "id": "phone-003",
+    "category": "phone",
+    "vendor": "小米",
+    "family": "Xiaomi",
+    "aliases": [
+      "小米",
+      "Xiaomi"
+    ],
+    "official_url": "https://www.mi.com/global/discover/news/"
+  },
+  {
+    "id": "phone-004",
+    "category": "phone",
+    "vendor": "小米",
+    "family": "REDMI",
+    "aliases": [
+      "红米",
+      "Redmi"
+    ],
+    "official_url": "https://www.mi.com/"
+  },
+  {
+    "id": "phone-005",
+    "category": "phone",
+    "vendor": "小米",
+    "family": "POCO",
+    "aliases": [
+      "POCO"
+    ],
+    "official_url": "https://www.mi.com/global/"
+  },
+  {
+    "id": "phone-006",
+    "category": "phone",
+    "vendor": "OPPO",
+    "family": "OPPO",
+    "aliases": [
+      "OPPO",
+      "Find",
+      "Reno"
+    ],
+    "official_url": "https://www.oppo.com/en/newsroom/"
+  },
+  {
+    "id": "phone-007",
+    "category": "phone",
+    "vendor": "OPPO",
+    "family": "OnePlus",
+    "aliases": [
+      "一加",
+      "OnePlus"
+    ],
+    "official_url": "https://www.oneplus.com/global/press"
+  },
+  {
+    "id": "phone-008",
+    "category": "phone",
+    "vendor": "realme",
+    "family": "realme",
+    "aliases": [
+      "真我",
+      "realme"
+    ],
+    "official_url": "https://www.realme.com/global/newsroom"
+  },
+  {
+    "id": "phone-009",
+    "category": "phone",
+    "vendor": "vivo",
+    "family": "vivo",
+    "aliases": [
+      "vivo"
+    ],
+    "official_url": "https://www.vivo.com/en/about-vivo/news"
+  },
+  {
+    "id": "phone-010",
+    "category": "phone",
+    "vendor": "vivo",
+    "family": "iQOO",
+    "aliases": [
+      "iQOO"
+    ],
+    "official_url": "https://www.iqoo.com/cn/"
+  },
+  {
+    "id": "phone-011",
+    "category": "phone",
+    "vendor": "中兴",
+    "family": "ZTE",
+    "aliases": [
+      "中兴",
+      "ZTE",
+      "Axon"
+    ],
+    "official_url": "https://www.ztedevices.com/en/news/"
+  },
+  {
+    "id": "phone-012",
+    "category": "phone",
+    "vendor": "努比亚",
+    "family": "nubia",
+    "aliases": [
+      "努比亚",
+      "nubia"
+    ],
+    "official_url": "https://www.nubia.com/"
+  },
+  {
+    "id": "phone-013",
+    "category": "phone",
+    "vendor": "努比亚",
+    "family": "REDMAGIC",
+    "aliases": [
+      "红魔",
+      "REDMAGIC",
+      "Red Magic"
+    ],
+    "official_url": "https://global.redmagic.gg/blogs/news"
+  },
+  {
+    "id": "phone-014",
+    "category": "phone",
+    "vendor": "魅族",
+    "family": "Meizu",
+    "aliases": [
+      "魅族",
+      "Meizu"
+    ],
+    "official_url": "https://www.meizu.com/"
+  },
+  {
+    "id": "phone-015",
+    "category": "phone",
+    "vendor": "Apple",
+    "family": "iPhone",
+    "aliases": [
+      "苹果",
+      "Apple",
+      "iPhone"
+    ],
+    "official_url": "https://www.apple.com/newsroom/"
+  },
+  {
+    "id": "phone-016",
+    "category": "phone",
+    "vendor": "Samsung",
+    "family": "Galaxy",
+    "aliases": [
+      "三星",
+      "Samsung",
+      "Galaxy"
+    ],
+    "official_url": "https://news.samsung.com/global/"
+  },
+  {
+    "id": "phone-017",
+    "category": "phone",
+    "vendor": "Google",
+    "family": "Pixel",
+    "aliases": [
+      "谷歌",
+      "Google",
+      "Pixel"
+    ],
+    "official_url": "https://blog.google/products/devices/pixel/"
+  },
+  {
+    "id": "phone-018",
+    "category": "phone",
+    "vendor": "联想",
+    "family": "Motorola",
+    "aliases": [
+      "摩托罗拉",
+      "Motorola",
+      "moto"
+    ],
+    "official_url": "https://motorolanews.com/"
+  },
+  {
+    "id": "phone-019",
+    "category": "phone",
+    "vendor": "Nothing",
+    "family": "Nothing Phone",
+    "aliases": [
+      "Nothing",
+      "Nothing Phone"
+    ],
+    "official_url": "https://nothing.tech/blogs/news"
+  },
+  {
+    "id": "phone-020",
+    "category": "phone",
+    "vendor": "Nothing",
+    "family": "CMF",
+    "aliases": [
+      "CMF"
+    ],
+    "official_url": "https://cmf.tech/"
+  },
+  {
+    "id": "phone-021",
+    "category": "phone",
+    "vendor": "传音",
+    "family": "TECNO",
+    "aliases": [
+      "TECNO",
+      "传音"
+    ],
+    "official_url": "https://www.tecno-mobile.com/news/"
+  },
+  {
+    "id": "phone-022",
+    "category": "phone",
+    "vendor": "传音",
+    "family": "Infinix",
+    "aliases": [
+      "Infinix"
+    ],
+    "official_url": "https://www.infinixmobility.com/"
+  },
+  {
+    "id": "phone-023",
+    "category": "phone",
+    "vendor": "传音",
+    "family": "itel",
+    "aliases": [
+      "itel"
+    ],
+    "official_url": "https://www.itel-life.com/"
+  },
+  {
+    "id": "phone-024",
+    "category": "phone",
+    "vendor": "Sony",
+    "family": "Xperia",
+    "aliases": [
+      "索尼",
+      "Sony",
+      "Xperia"
+    ],
+    "official_url": "https://www.sony.com/en/SonyInfo/News/Press/"
+  },
+  {
+    "id": "phone-025",
+    "category": "phone",
+    "vendor": "SHARP",
+    "family": "AQUOS",
+    "aliases": [
+      "夏普",
+      "SHARP",
+      "AQUOS"
+    ],
+    "official_url": "https://global.sharp/corporate/news/"
+  },
+  {
+    "id": "phone-026",
+    "category": "phone",
+    "vendor": "ASUS",
+    "family": "Zenfone / ROG Phone",
+    "aliases": [
+      "华硕",
+      "ASUS",
+      "Zenfone",
+      "ROG Phone"
+    ],
+    "official_url": "https://press.asus.com/"
+  },
+  {
+    "id": "phone-027",
+    "category": "phone",
+    "vendor": "HMD",
+    "family": "HMD",
+    "aliases": [
+      "HMD"
+    ],
+    "official_url": "https://www.hmd.com/en_int/press"
+  },
+  {
+    "id": "phone-028",
+    "category": "phone",
+    "vendor": "Fairphone",
+    "family": "Fairphone",
+    "aliases": [
+      "Fairphone"
+    ],
+    "official_url": "https://www.fairphone.com/en/"
+  },
+  {
+    "id": "phone-029",
+    "category": "phone",
+    "vendor": "Lava",
+    "family": "Lava",
+    "aliases": [
+      "Lava",
+      "Agni"
+    ],
+    "official_url": "https://www.lavamobiles.com/"
+  },
+  {
+    "id": "phone-030",
+    "category": "phone",
+    "vendor": "Ulefone",
+    "family": "Ulefone",
+    "aliases": [
+      "Ulefone",
+      "Armor"
+    ],
+    "official_url": "https://www.ulefone.com/"
+  },
+  {
+    "id": "phone-031",
+    "category": "phone",
+    "vendor": "DOOGEE",
+    "family": "DOOGEE",
+    "aliases": [
+      "DOOGEE"
+    ],
+    "official_url": "https://www.doogee.cc/"
+  },
+  {
+    "id": "phone-032",
+    "category": "phone",
+    "vendor": "Blackview",
+    "family": "Blackview",
+    "aliases": [
+      "Blackview"
+    ],
+    "official_url": "https://www.blackview.hk/"
+  },
+  {
+    "id": "phone-033",
+    "category": "phone",
+    "vendor": "OUKITEL",
+    "family": "OUKITEL",
+    "aliases": [
+      "OUKITEL"
+    ],
+    "official_url": "https://oukitel.com/"
+  },
+  {
+    "id": "phone-034",
+    "category": "phone",
+    "vendor": "Unihertz",
+    "family": "Unihertz",
+    "aliases": [
+      "Unihertz",
+      "Jelly",
+      "Titan"
+    ],
+    "official_url": "https://www.unihertz.com/"
+  },
+  {
+    "id": "phone-035",
+    "category": "phone",
+    "vendor": "AGM",
+    "family": "AGM",
+    "aliases": [
+      "AGM"
+    ],
+    "official_url": "https://www.agmmobile.com/"
+  },
+  {
+    "id": "phone-036",
+    "category": "phone",
+    "vendor": "8849",
+    "family": "8849",
+    "aliases": [
+      "8849",
+      "Tank"
+    ],
+    "official_url": "https://8849tech.com/"
+  },
+  {
+    "id": "ai-037",
+    "category": "ai",
+    "vendor": "DeepSeek",
+    "family": "DeepSeek",
+    "aliases": [
+      "深度求索",
+      "DeepSeek"
+    ],
+    "official_url": "https://api-docs.deepseek.com/news/"
+  },
+  {
+    "id": "ai-038",
+    "category": "ai",
+    "vendor": "阿里巴巴",
+    "family": "Qwen / Wan",
+    "aliases": [
+      "通义千问",
+      "Qwen",
+      "通义万相",
+      "Wan"
+    ],
+    "official_url": "https://qwen.ai/blog"
+  },
+  {
+    "id": "ai-039",
+    "category": "ai",
+    "vendor": "字节跳动",
+    "family": "Seed / Doubao",
+    "aliases": [
+      "豆包",
+      "Doubao",
+      "Seed",
+      "Seedance",
+      "Seedream"
+    ],
+    "official_url": "https://seed.bytedance.com/en/"
+  },
+  {
+    "id": "ai-040",
+    "category": "ai",
+    "vendor": "腾讯",
+    "family": "Hunyuan",
+    "aliases": [
+      "混元",
+      "Hunyuan"
+    ],
+    "official_url": "https://hunyuan.tencent.com/"
+  },
+  {
+    "id": "ai-041",
+    "category": "ai",
+    "vendor": "百度",
+    "family": "ERNIE",
+    "aliases": [
+      "文心",
+      "ERNIE"
+    ],
+    "official_url": "https://yiyan.baidu.com/"
+  },
+  {
+    "id": "ai-042",
+    "category": "ai",
+    "vendor": "智谱 / Z.ai",
+    "family": "GLM / CogView / CogVideo",
+    "aliases": [
+      "智谱",
+      "Z.ai",
+      "GLM",
+      "CogView",
+      "CogVideo"
+    ],
+    "official_url": "https://z.ai/blog"
+  },
+  {
+    "id": "ai-043",
+    "category": "ai",
+    "vendor": "月之暗面",
+    "family": "Kimi",
+    "aliases": [
+      "月之暗面",
+      "Moonshot",
+      "Kimi"
+    ],
+    "official_url": "https://www.kimi.com/"
+  },
+  {
+    "id": "ai-044",
+    "category": "ai",
+    "vendor": "MiniMax",
+    "family": "MiniMax / Hailuo",
+    "aliases": [
+      "MiniMax",
+      "海螺",
+      "Hailuo"
+    ],
+    "official_url": "https://www.minimax.io/news"
+  },
+  {
+    "id": "ai-045",
+    "category": "ai",
+    "vendor": "阶跃星辰",
+    "family": "Step",
+    "aliases": [
+      "阶跃星辰",
+      "StepFun",
+      "Step"
+    ],
+    "official_url": "https://www.stepfun.com/"
+  },
+  {
+    "id": "ai-046",
+    "category": "ai",
+    "vendor": "科大讯飞",
+    "family": "Spark",
+    "aliases": [
+      "讯飞星火",
+      "Spark"
+    ],
+    "official_url": "https://xinghuo.xfyun.cn/"
+  },
+  {
+    "id": "ai-047",
+    "category": "ai",
+    "vendor": "商汤",
+    "family": "SenseNova",
+    "aliases": [
+      "日日新",
+      "SenseNova",
+      "SenseTime"
+    ],
+    "official_url": "https://www.sensetime.com/en/news"
+  },
+  {
+    "id": "ai-048",
+    "category": "ai",
+    "vendor": "华为",
+    "family": "Pangu",
+    "aliases": [
+      "盘古",
+      "Pangu"
+    ],
+    "official_url": "https://www.huaweicloud.com/product/pangu.html"
+  },
+  {
+    "id": "ai-049",
+    "category": "ai",
+    "vendor": "快手",
+    "family": "Kling",
+    "aliases": [
+      "可灵",
+      "Kling"
+    ],
+    "official_url": "https://klingai.com/"
+  },
+  {
+    "id": "ai-050",
+    "category": "ai",
+    "vendor": "生数科技",
+    "family": "Vidu",
+    "aliases": [
+      "Vidu",
+      "生数"
+    ],
+    "official_url": "https://www.vidu.com/"
+  },
+  {
+    "id": "ai-051",
+    "category": "ai",
+    "vendor": "爱诗科技",
+    "family": "PixVerse",
+    "aliases": [
+      "PixVerse",
+      "拍我"
+    ],
+    "official_url": "https://pixverse.ai/"
+  },
+  {
+    "id": "ai-052",
+    "category": "ai",
+    "vendor": "昆仑万维",
+    "family": "Skywork",
+    "aliases": [
+      "天工",
+      "Skywork"
+    ],
+    "official_url": "https://skywork.ai/"
+  },
+  {
+    "id": "ai-053",
+    "category": "ai",
+    "vendor": "百川智能",
+    "family": "Baichuan",
+    "aliases": [
+      "百川",
+      "Baichuan"
+    ],
+    "official_url": "https://www.baichuan-ai.com/"
+  },
+  {
+    "id": "ai-054",
+    "category": "ai",
+    "vendor": "零一万物",
+    "family": "Yi",
+    "aliases": [
+      "零一万物",
+      "01.AI",
+      "Yi"
+    ],
+    "official_url": "https://www.01.ai/"
+  },
+  {
+    "id": "ai-055",
+    "category": "ai",
+    "vendor": "面壁智能",
+    "family": "MiniCPM",
+    "aliases": [
+      "面壁",
+      "MiniCPM"
+    ],
+    "official_url": "https://github.com/OpenBMB"
+  },
+  {
+    "id": "ai-056",
+    "category": "ai",
+    "vendor": "Jina AI",
+    "family": "Embeddings / Reranker",
+    "aliases": [
+      "Jina",
+      "Jina Embeddings",
+      "Jina Reranker"
+    ],
+    "official_url": "https://jina.ai/news/"
+  },
+  {
+    "id": "ai-057",
+    "category": "ai",
+    "vendor": "上海人工智能实验室（研究机构）",
+    "family": "InternLM / InternVL",
+    "aliases": [
+      "书生",
+      "InternLM",
+      "InternVL"
+    ],
+    "official_url": "https://www.shlab.org.cn/"
+  },
+  {
+    "id": "ai-058",
+    "category": "ai",
+    "vendor": "北京智源人工智能研究院（研究机构）",
+    "family": "BGE / Emu",
+    "aliases": [
+      "智源",
+      "BAAI",
+      "BGE",
+      "Emu"
+    ],
+    "official_url": "https://www.baai.ac.cn/"
+  },
+  {
+    "id": "ai-059",
+    "category": "ai",
+    "vendor": "OpenAI",
+    "family": "GPT / o-series / gpt-oss / Sora",
+    "aliases": [
+      "OpenAI",
+      "GPT",
+      "o1",
+      "o3",
+      "o4",
+      "gpt-oss",
+      "Sora"
+    ],
+    "official_url": "https://openai.com/news/"
+  },
+  {
+    "id": "ai-060",
+    "category": "ai",
+    "vendor": "Anthropic",
+    "family": "Claude",
+    "aliases": [
+      "Anthropic",
+      "Claude",
+      "Opus",
+      "Sonnet",
+      "Haiku"
+    ],
+    "official_url": "https://www.anthropic.com/news"
+  },
+  {
+    "id": "ai-061",
+    "category": "ai",
+    "vendor": "Google DeepMind",
+    "family": "Gemini / Gemma / Imagen / Veo / Lyria",
+    "aliases": [
+      "Gemini",
+      "Gemma",
+      "Imagen",
+      "Veo",
+      "Lyria"
+    ],
+    "official_url": "https://deepmind.google/blog/"
+  },
+  {
+    "id": "ai-062",
+    "category": "ai",
+    "vendor": "Meta",
+    "family": "Llama",
+    "aliases": [
+      "Meta",
+      "Llama"
+    ],
+    "official_url": "https://ai.meta.com/blog/"
+  },
+  {
+    "id": "ai-063",
+    "category": "ai",
+    "vendor": "xAI",
+    "family": "Grok",
+    "aliases": [
+      "xAI",
+      "Grok"
+    ],
+    "official_url": "https://x.ai/news"
+  },
+  {
+    "id": "ai-064",
+    "category": "ai",
+    "vendor": "Mistral AI",
+    "family": "Mistral / Codestral / Devstral / Voxtral",
+    "aliases": [
+      "Mistral",
+      "Ministral",
+      "Codestral",
+      "Devstral",
+      "Voxtral"
+    ],
+    "official_url": "https://mistral.ai/news"
+  },
+  {
+    "id": "ai-065",
+    "category": "ai",
+    "vendor": "Cohere",
+    "family": "Command / Aya / Embed / Rerank",
+    "aliases": [
+      "Cohere",
+      "Command",
+      "Aya",
+      "Embed",
+      "Rerank"
+    ],
+    "official_url": "https://cohere.com/blog"
+  },
+  {
+    "id": "ai-066",
+    "category": "ai",
+    "vendor": "AI21 Labs",
+    "family": "Jamba",
+    "aliases": [
+      "AI21",
+      "Jamba"
+    ],
+    "official_url": "https://www.ai21.com/blog/"
+  },
+  {
+    "id": "ai-067",
+    "category": "ai",
+    "vendor": "Amazon / AWS",
+    "family": "Nova / Titan",
+    "aliases": [
+      "Amazon Nova",
+      "Amazon Titan",
+      "Nova",
+      "Titan"
+    ],
+    "official_url": "https://aws.amazon.com/blogs/aws/"
+  },
+  {
+    "id": "ai-068",
+    "category": "ai",
+    "vendor": "Microsoft",
+    "family": "Phi / MAI",
+    "aliases": [
+      "Microsoft",
+      "Phi",
+      "MAI"
+    ],
+    "official_url": "https://www.microsoft.com/en-us/research/blog/"
+  },
+  {
+    "id": "ai-069",
+    "category": "ai",
+    "vendor": "NVIDIA",
+    "family": "Nemotron / Cosmos",
+    "aliases": [
+      "NVIDIA",
+      "Nemotron",
+      "Cosmos"
+    ],
+    "official_url": "https://blogs.nvidia.com/"
+  },
+  {
+    "id": "ai-070",
+    "category": "ai",
+    "vendor": "IBM",
+    "family": "Granite",
+    "aliases": [
+      "IBM",
+      "Granite"
+    ],
+    "official_url": "https://research.ibm.com/blog"
+  },
+  {
+    "id": "ai-071",
+    "category": "ai",
+    "vendor": "Apple",
+    "family": "OpenELM / 公开模型",
+    "aliases": [
+      "Apple",
+      "OpenELM"
+    ],
+    "official_url": "https://machinelearning.apple.com/"
+  },
+  {
+    "id": "ai-072",
+    "category": "ai",
+    "vendor": "Ai2（研究机构）",
+    "family": "OLMo / Molmo / Tülu",
+    "aliases": [
+      "Ai2",
+      "Allen Institute",
+      "OLMo",
+      "Molmo",
+      "Tulu",
+      "Tülu"
+    ],
+    "official_url": "https://allenai.org/blog"
+  },
+  {
+    "id": "ai-073",
+    "category": "ai",
+    "vendor": "TII（研究机构）",
+    "family": "Falcon",
+    "aliases": [
+      "TII",
+      "Falcon"
+    ],
+    "official_url": "https://www.tii.ae/"
+  },
+  {
+    "id": "ai-074",
+    "category": "ai",
+    "vendor": "Liquid AI",
+    "family": "LFM",
+    "aliases": [
+      "Liquid AI",
+      "LFM"
+    ],
+    "official_url": "https://www.liquid.ai/blog"
+  },
+  {
+    "id": "ai-075",
+    "category": "ai",
+    "vendor": "Arcee AI",
+    "family": "Arcee",
+    "aliases": [
+      "Arcee"
+    ],
+    "official_url": "https://www.arcee.ai/blog"
+  },
+  {
+    "id": "ai-076",
+    "category": "ai",
+    "vendor": "Naver",
+    "family": "HyperCLOVA",
+    "aliases": [
+      "Naver",
+      "HyperCLOVA"
+    ],
+    "official_url": "https://navercorp.com/"
+  },
+  {
+    "id": "ai-077",
+    "category": "ai",
+    "vendor": "LG AI Research",
+    "family": "EXAONE",
+    "aliases": [
+      "LG AI Research",
+      "EXAONE"
+    ],
+    "official_url": "https://www.lgresearch.ai/"
+  },
+  {
+    "id": "ai-078",
+    "category": "ai",
+    "vendor": "Upstage",
+    "family": "Solar",
+    "aliases": [
+      "Upstage",
+      "Solar"
+    ],
+    "official_url": "https://www.upstage.ai/blog"
+  },
+  {
+    "id": "ai-079",
+    "category": "ai",
+    "vendor": "Black Forest Labs",
+    "family": "FLUX",
+    "aliases": [
+      "Black Forest Labs",
+      "BFL",
+      "FLUX"
+    ],
+    "official_url": "https://bfl.ai/announcements"
+  },
+  {
+    "id": "ai-080",
+    "category": "ai",
+    "vendor": "Stability AI",
+    "family": "Stable Diffusion",
+    "aliases": [
+      "Stability AI",
+      "Stable Diffusion",
+      "Stable Audio"
+    ],
+    "official_url": "https://stability.ai/news"
+  },
+  {
+    "id": "ai-081",
+    "category": "ai",
+    "vendor": "Midjourney",
+    "family": "Midjourney",
+    "aliases": [
+      "Midjourney"
+    ],
+    "official_url": "https://updates.midjourney.com/"
+  },
+  {
+    "id": "ai-082",
+    "category": "ai",
+    "vendor": "Ideogram",
+    "family": "Ideogram",
+    "aliases": [
+      "Ideogram"
+    ],
+    "official_url": "https://about.ideogram.ai/blog"
+  },
+  {
+    "id": "ai-083",
+    "category": "ai",
+    "vendor": "Recraft",
+    "family": "Recraft",
+    "aliases": [
+      "Recraft"
+    ],
+    "official_url": "https://www.recraft.ai/blog"
+  },
+  {
+    "id": "ai-084",
+    "category": "ai",
+    "vendor": "Adobe",
+    "family": "Firefly",
+    "aliases": [
+      "Adobe",
+      "Firefly"
+    ],
+    "official_url": "https://blog.adobe.com/"
+  },
+  {
+    "id": "ai-085",
+    "category": "ai",
+    "vendor": "Runway",
+    "family": "Gen / Runway",
+    "aliases": [
+      "Runway",
+      "Gen-3",
+      "Gen-4"
+    ],
+    "official_url": "https://runwayml.com/research"
+  },
+  {
+    "id": "ai-086",
+    "category": "ai",
+    "vendor": "Luma AI",
+    "family": "Ray / Dream Machine",
+    "aliases": [
+      "Luma",
+      "Ray",
+      "Dream Machine"
+    ],
+    "official_url": "https://lumalabs.ai/"
+  },
+  {
+    "id": "ai-087",
+    "category": "ai",
+    "vendor": "Pika",
+    "family": "Pika",
+    "aliases": [
+      "Pika"
+    ],
+    "official_url": "https://pika.art/"
+  },
+  {
+    "id": "ai-088",
+    "category": "ai",
+    "vendor": "ElevenLabs",
+    "family": "Eleven / 语音模型",
+    "aliases": [
+      "ElevenLabs",
+      "Eleven"
+    ],
+    "official_url": "https://elevenlabs.io/blog"
+  },
+  {
+    "id": "ai-089",
+    "category": "ai",
+    "vendor": "Deepgram",
+    "family": "Nova / Aura",
+    "aliases": [
+      "Deepgram",
+      "Nova",
+      "Aura"
+    ],
+    "official_url": "https://deepgram.com/learn"
+  },
+  {
+    "id": "ai-090",
+    "category": "ai",
+    "vendor": "AssemblyAI",
+    "family": "Universal",
+    "aliases": [
+      "AssemblyAI",
+      "Universal"
+    ],
+    "official_url": "https://www.assemblyai.com/blog/"
+  },
+  {
+    "id": "ai-091",
+    "category": "ai",
+    "vendor": "Speechmatics",
+    "family": "语音模型",
+    "aliases": [
+      "Speechmatics"
+    ],
+    "official_url": "https://www.speechmatics.com/"
+  },
+  {
+    "id": "ai-092",
+    "category": "ai",
+    "vendor": "Cartesia",
+    "family": "Sonic",
+    "aliases": [
+      "Cartesia",
+      "Sonic"
+    ],
+    "official_url": "https://cartesia.ai/blog"
+  },
+  {
+    "id": "ai-093",
+    "category": "ai",
+    "vendor": "Fish Audio",
+    "family": "语音模型",
+    "aliases": [
+      "Fish Audio",
+      "Fish Speech"
+    ],
+    "official_url": "https://fish.audio/"
+  },
+  {
+    "id": "ai-094",
+    "category": "ai",
+    "vendor": "Suno",
+    "family": "Suno",
+    "aliases": [
+      "Suno"
+    ],
+    "official_url": "https://suno.com/blog"
+  },
+  {
+    "id": "ai-095",
+    "category": "ai",
+    "vendor": "Udio",
+    "family": "Udio",
+    "aliases": [
+      "Udio"
+    ],
+    "official_url": "https://www.udio.com/blog"
+  }
+]

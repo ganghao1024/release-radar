@@ -1,0 +1,12 @@
+{
+  "name": "release-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official phone and AI model release radar, powered by GitHub Actions",
+  "scripts": {
+    "fetch": "python scripts/collect.py",
+    "build": "python scripts/build.py",
+    "test": "python -m unittest discover -s tests -v",
+    "preview": "python -m http.server 4173 --directory dist"
+  }
+}
