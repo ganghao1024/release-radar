@@ -40,6 +40,9 @@ class ClassificationTests(unittest.TestCase):
         self.assertIsNone(classify(self.row('Supporting independent journalism','OpenAI launches an AI program'),self.ai))
         self.assertIsNone(classify(self.row('Introducing the Admin plugin for ChatGPT'),self.ai))
     def test_accessory_not_phone(self):self.assertIsNone(classify(self.row('Introducing a new charger'),self.phone))
+    def test_accessory_with_phone_name_is_excluded(self):
+        self.assertIsNone(classify(self.row('New accessories for Pixel 11 phones are here.'),{'categories':['phone'],'terms':['Pixel']}))
+        self.assertIsNone(classify(self.row('Introducing new cases for iPhone 17'),self.phone))
     def test_alias_word_boundaries(self):
         self.assertTrue(has_term('Qwen3 release','Qwen'));self.assertFalse(has_term('stepping up','Step'));self.assertFalse(has_term('innovation','Nova'))
     def test_google_split(self):
