@@ -15,32 +15,18 @@
     "note": "中国地区发布；仅筛选 iPhone。",
     "terms": [
       "iPhone"
-    ]
-  },
-  {
-    "id": "apple-global",
-    "name": "Apple 全球 Newsroom",
-    "url": "https://www.apple.com/newsroom/rss-feed.rss",
-    "kind": "rss",
-    "enabled": true,
-    "catalog_ids": [
-      "phone-015"
     ],
-    "categories": [
-      "phone"
+    "article_prefixes": [
+      "https://www.apple.com/cn/newsroom/"
     ],
-    "pattern": null,
-    "note": "全球发布，与中国地区公告分别保留。",
-    "terms": [
-      "iPhone"
-    ]
+    "region": "CN"
   },
   {
     "id": "samsung",
-    "name": "Samsung Global Newsroom",
-    "url": "https://news.samsung.com/global/feed/rss",
-    "kind": "rss",
-    "enabled": true,
+    "name": "三星中国官网",
+    "url": "https://www.samsung.com.cn/cn/news/",
+    "kind": "candidate",
+    "enabled": false,
     "catalog_ids": [
       "phone-016"
     ],
@@ -48,7 +34,7 @@
       "phone"
     ],
     "pattern": null,
-    "note": "全站新闻，需要筛选手机；部分网络可能超时。",
+    "note": "国内官网入口，新闻解析待适配；不使用国际站。",
     "terms": [
       "Galaxy S",
       "Galaxy Z",
@@ -56,7 +42,8 @@
       "Galaxy M",
       "Galaxy F",
       "smartphone"
-    ]
+    ],
+    "region": "CN"
   },
   {
     "id": "google",
@@ -65,40 +52,19 @@
     "kind": "rss",
     "enabled": true,
     "catalog_ids": [
-      "phone-017",
       "ai-061"
     ],
     "categories": [
-      "phone",
       "ai"
     ],
     "pattern": null,
-    "note": "全站 RSS，分别识别 Pixel 手机和 AI 模型。",
+    "note": "仅用于 AI 模型，不采集 Pixel 手机国际消息。",
     "terms": [
-      "Pixel",
       "Gemini",
       "Gemma",
       "Imagen",
       "Veo",
       "Lyria"
-    ]
-  },
-  {
-    "id": "pixel",
-    "name": "Google Pixel 专栏",
-    "url": "https://blog.google/products-and-platforms/devices/pixel/rss/",
-    "kind": "rss",
-    "enabled": true,
-    "catalog_ids": [
-      "phone-017"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "note": "Pixel 专栏 RSS；排除耳机、手表和使用教程。",
-    "terms": [
-      "Pixel"
     ]
   },
   {
@@ -150,50 +116,9 @@
     "terms": []
   },
   {
-    "id": "nothing",
-    "name": "Nothing 官方新闻",
-    "url": "https://nothing.tech/blogs/news.atom",
-    "kind": "rss",
-    "enabled": true,
-    "catalog_ids": [
-      "phone-019",
-      "phone-020"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "note": "",
-    "terms": [
-      "Phone",
-      "CMF"
-    ]
-  },
-  {
-    "id": "redmagic",
-    "name": "REDMAGIC 官方新闻",
-    "url": "https://global.redmagic.gg/blogs/news.atom",
-    "kind": "rss",
-    "enabled": true,
-    "catalog_ids": [
-      "phone-012",
-      "phone-013"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "note": "",
-    "terms": [
-      "REDMAGIC",
-      "Red Magic",
-      "phone"
-    ]
-  },
-  {
     "id": "honor",
-    "name": "HONOR 全球新闻",
-    "url": "https://www.honor.com/global/news/",
+    "name": "荣耀中国官网新闻",
+    "url": "https://www.honor.com/cn/news/",
     "kind": "html",
     "enabled": true,
     "catalog_ids": [
@@ -202,13 +127,18 @@
     "categories": [
       "phone"
     ],
-    "pattern": "/global/news/(?!archive)[^/?#]+/?$",
-    "note": "全球官网公告；国内与全球上市时间可能不同。",
+    "pattern": "/cn/news/(?!archive)[^/?#]+/?$",
+    "note": "仅采集中国大陆官网公告。",
     "terms": [
+      "荣耀",
       "HONOR",
       "Magic",
-      "phone"
-    ]
+      "手机"
+    ],
+    "article_prefixes": [
+      "https://www.honor.com/cn/news/"
+    ],
+    "region": "CN"
   },
   {
     "id": "apple-ml",
@@ -426,12 +356,13 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-9461d45d5b",
     "name": "小米 · Xiaomi",
-    "url": "https://www.mi.com/global/discover/news/",
+    "url": "https://www.mi.com/",
     "kind": "candidate",
     "enabled": false,
     "catalog_ids": [
@@ -442,7 +373,8 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-02a9a23d8a",
@@ -458,28 +390,13 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-eff4b62a2e",
-    "name": "小米 · POCO",
-    "url": "https://www.mi.com/global/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-005"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-aa572a5130",
     "name": "OPPO · OPPO",
-    "url": "https://www.oppo.com/en/newsroom/",
+    "url": "https://www.oppo.com/cn/newsroom/",
     "kind": "candidate",
     "enabled": false,
     "catalog_ids": [
@@ -490,12 +407,13 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-1ca70f062d",
     "name": "OPPO · OnePlus",
-    "url": "https://www.oneplus.com/global/press",
+    "url": "https://www.oneplus.com/cn",
     "kind": "candidate",
     "enabled": false,
     "catalog_ids": [
@@ -506,12 +424,13 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-4755821eba",
     "name": "realme · realme",
-    "url": "https://www.realme.com/global/newsroom",
+    "url": "https://www.realme.com/cn/",
     "kind": "candidate",
     "enabled": false,
     "catalog_ids": [
@@ -522,55 +441,8 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-a318d8dfce",
-    "name": "vivo · vivo",
-    "url": "https://www.vivo.com/en/about-vivo/news",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-009"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-21255a3621",
-    "name": "vivo · iQOO",
-    "url": "https://www.iqoo.com/cn/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-010"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-5e8224c622",
-    "name": "中兴 · ZTE",
-    "url": "https://www.ztedevices.com/en/news/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-011"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-9e99e080ff",
@@ -586,12 +458,13 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-e17b3b9586",
     "name": "联想 · Motorola",
-    "url": "https://motorolanews.com/",
+    "url": "https://www.motorola.com.cn/",
     "kind": "candidate",
     "enabled": false,
     "catalog_ids": [
@@ -602,60 +475,13 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-f3ababa55b",
-    "name": "传音 · TECNO",
-    "url": "https://www.tecno-mobile.com/news/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-021"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-ac60768377",
-    "name": "传音 · Infinix",
-    "url": "https://www.infinixmobility.com/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-022"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-fd388ebd93",
-    "name": "传音 · itel",
-    "url": "https://www.itel-life.com/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-023"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-b932d84d22",
     "name": "Sony · Xperia",
-    "url": "https://www.sony.com/en/SonyInfo/News/Press/",
+    "url": "https://www.sony.com.cn/",
     "kind": "candidate",
     "enabled": false,
     "catalog_ids": [
@@ -666,28 +492,13 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-7daf86b5b3",
-    "name": "SHARP · AQUOS",
-    "url": "https://global.sharp/corporate/news/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-025"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-fc134bbb20",
     "name": "ASUS · Zenfone / ROG Phone",
-    "url": "https://press.asus.com/",
+    "url": "https://www.asus.com.cn/mobile-handhelds/phones/all-series/",
     "kind": "candidate",
     "enabled": false,
     "catalog_ids": [
@@ -698,140 +509,13 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-2659563369",
-    "name": "HMD · HMD",
-    "url": "https://www.hmd.com/en_int/press",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-027"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-df48653b8b",
-    "name": "Fairphone · Fairphone",
-    "url": "https://www.fairphone.com/en/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-028"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-f100ae80ca",
-    "name": "Lava · Lava",
-    "url": "https://www.lavamobiles.com/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-029"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-d6f8245c83",
-    "name": "Ulefone · Ulefone",
-    "url": "https://www.ulefone.com/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-030"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-0cf3907e26",
-    "name": "DOOGEE · DOOGEE",
-    "url": "https://www.doogee.cc/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-031"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-d32df06276",
-    "name": "Blackview · Blackview",
-    "url": "https://www.blackview.hk/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-032"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-ef489bb8ac",
-    "name": "OUKITEL · OUKITEL",
-    "url": "https://oukitel.com/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-033"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-850b37a044",
-    "name": "Unihertz · Unihertz",
-    "url": "https://www.unihertz.com/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-034"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-0d48e8872f",
     "name": "AGM · AGM",
-    "url": "https://www.agmmobile.com/",
+    "url": "https://www.agmdevice.com/",
     "kind": "candidate",
     "enabled": false,
     "catalog_ids": [
@@ -842,23 +526,8 @@
     ],
     "pattern": null,
     "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
-  },
-  {
-    "id": "candidate-90fd27cdb1",
-    "name": "8849 · 8849",
-    "url": "https://8849tech.com/",
-    "kind": "candidate",
-    "enabled": false,
-    "catalog_ids": [
-      "phone-036"
-    ],
-    "categories": [
-      "phone"
-    ],
-    "pattern": null,
-    "terms": [],
-    "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+    "note": "中国大陆官网入口，待适配。",
+    "region": "CN"
   },
   {
     "id": "candidate-51bbfd2732",
@@ -1563,5 +1232,59 @@
     "pattern": null,
     "terms": [],
     "note": "官方入口候选；尚未完成入口有效性、自动采集适配和更新覆盖验证，不计入运行中数据源。"
+  },
+  {
+    "id": "vivo-cn",
+    "name": "vivo 中国官网新闻",
+    "url": "https://www.vivo.com.cn/brand/news/list",
+    "kind": "html",
+    "enabled": true,
+    "catalog_ids": [
+      "phone-009",
+      "phone-010"
+    ],
+    "categories": [
+      "phone"
+    ],
+    "terms": [
+      "vivo",
+      "iQOO",
+      "X Fold",
+      "手机"
+    ],
+    "pattern": "/brand/news/detail$",
+    "region": "CN",
+    "article_prefixes": [
+      "https://www.vivo.com.cn/brand/news/detail"
+    ],
+    "note": "仅采集中国大陆官网公告。"
+  },
+  {
+    "id": "zte-cn",
+    "name": "中兴终端中国官网新闻",
+    "url": "https://www.ztedevices.com/cn/news/",
+    "kind": "html",
+    "enabled": true,
+    "catalog_ids": [
+      "phone-011",
+      "phone-012",
+      "phone-013"
+    ],
+    "categories": [
+      "phone"
+    ],
+    "terms": [
+      "中兴",
+      "努比亚",
+      "红魔",
+      "nubia",
+      "手机"
+    ],
+    "pattern": "/cn/news/[^/?#]+/?$",
+    "region": "CN",
+    "article_prefixes": [
+      "https://www.ztedevices.com/cn/news/"
+    ],
+    "note": "仅采集中国大陆官网公告。"
   }
 ]
