@@ -97,17 +97,38 @@ def classify(row,source):
     else:return None
     return category,event_type
 
+def domestic_phone_url(url, source):
+    if not source.get('enabled') or source.get('region') != 'CN' or 'phone' not in source.get('categories', []):
+        return False
+    parsed = urlparse(canonical_url(url))
+    for prefix in source.get('article_prefixes', []):
+        allowed = urlparse(prefix)
+        if parsed.scheme == allowed.scheme and parsed.netloc == allowed.netloc and (
+            parsed.path == allowed.path or parsed.path.startswith(allowed.path.rstrip('/') + '/')
+        ):
+            return True
+    return False
+
+
+def filter_domestic_phones(items, sources):
+    by_id = {s['id']: s for s in sources}
+    return [item for item in items if item.get('category') != 'phone' or any(
+        domestic_phone_url(item.get('url', ''), by_id.get(sid, {})) for sid in item.get('source_ids', [])
+    )]
+
+
 def normalize(row,source,catalog,checked_at):
     result=classify(row,source)
     if not result:return None
     category,event_type=result
+    if category == 'phone' and not domestic_phone_url(row.get('url', ''), source):return None
     entries=[e for e in catalog if e['id'] in source['catalog_ids'] and e['category']==category]
     matched=[e for e in entries if any(has_term(row['title'],a) for a in e['aliases'])]
     if not matched:matched=entries[:1]
     if not matched:return None
     url=canonical_url(row['url'])
     if not url:return None
-    region='中国' if source['id']=='apple-cn' else '全球 / 原文地区'
+    region='中国' if source.get('region')=='CN' else '全球 / 原文地区'
     return dict(id=hashlib.sha256(url.encode()).hexdigest()[:20],category=category,event_type=event_type,
        title=row['title'],summary=row.get('summary','')[:420],url=url,
        published_at=row.get('published_at'),updated_at=row.get('updated_at'),first_seen_at=checked_at,
