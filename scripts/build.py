@@ -49,7 +49,7 @@ def rss(data,destination):
     for key,value in [('title','发布雷达 · 手机与 AI 模型'),('link',base),('description','经过规则筛选的官方发布线索；阶段以原文为准。'),('language','zh-cn')]:ET.SubElement(ch,key).text=value
     for entry in data['items'][:100]:
         item=ET.SubElement(ch,'item')
-        for key,value in [('title',entry['title']),('link',entry['url']),('description',entry['summary']),('category',entry['category'])]:ET.SubElement(item,key).text=value
+        for key,value in [('title',entry.get('title_zh') or entry['title']),('link',entry['url']),('description',entry.get('summary_zh') or entry['summary']),('category',entry['category'])]:ET.SubElement(item,key).text=value
         ET.SubElement(item,'guid',isPermaLink='true').text=entry['url']
         if entry.get('published_at'):ET.SubElement(item,'pubDate').text=format_datetime(datetime.fromisoformat(entry['published_at']).astimezone(timezone.utc))
     ET.indent(root);ET.ElementTree(root).write(destination,encoding='utf-8',xml_declaration=True)
@@ -61,6 +61,16 @@ def main():
     data['catalog']=json.loads((ROOT/'config/catalog.json').read_text(encoding='utf-8'))
     data['sources']=json.loads((ROOT/'config/sources.json').read_text(encoding='utf-8'))
     data['site']=json.loads((ROOT/'config/site.json').read_text(encoding='utf-8'))
+    if '--translate' in sys.argv:
+        from translate import localize
+        localize(data['items'])
+        # Persist translations with the existing collection cache, reused next run.
+        for path in (file, ROOT/'.cache/state.json'):
+            path.parent.mkdir(parents=True, exist_ok=True)
+            temporary = path.with_suffix('.tmp')
+            temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+            temporary.replace(path)
+        print(f"Chinese localization: {sum(i['translation_status'] != 'unavailable' for i in data['items'])}/{len(data['items'])} complete")
     write_docs(data)
     dest=ROOT/'dist';dest.mkdir(exist_ok=True)
     for file in (ROOT/'web').iterdir():
