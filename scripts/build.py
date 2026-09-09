@@ -1,5 +1,8 @@
 """Build a portable static site and reproducible Markdown documentation."""
 import json
+import sys
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parents[1]))
+from scripts.core import filter_domestic_phones
 import shutil
 import sys
 import xml.etree.ElementTree as ET
@@ -23,8 +26,10 @@ def write_docs(data):
         lines.extend([f'## {title}','','| 厂商 | 品牌／模型家族 | 别名 | 官方入口 | 自动采集源 |','|---|---|---|---|---|'])
         for e in catalog:
             if e['category']!=category:continue
+            official = f"[国内官网]({e['official_url']})" if e.get('official_url') else '未确认国内手机官网'
+            if category == 'ai': official = f"[官方入口]({e['official_url']})"
             active=[s['name'] for s in sources if s['enabled'] and e['id'] in s['catalog_ids']]
-            lines.append(f'| {e["vendor"]} | {e["family"]} | {"、".join(e["aliases"])} | [官方入口]({e["official_url"]}) | {"；".join(active) or "候选，未接入"} |')
+            lines.append(f'| {e["vendor"]} | {e["family"]} | {"、".join(e["aliases"])} | {official} | {"；".join(active) or "候选，未接入"} |')
         lines.append('')
     (docs/'厂商与品牌关系.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     lines=['# 数据源列表与运行状态','',f'本次检查时间（UTC）：{data.get("generated_at","未运行")}。',
@@ -61,6 +66,7 @@ def main():
     data['catalog']=json.loads((ROOT/'config/catalog.json').read_text(encoding='utf-8'))
     data['sources']=json.loads((ROOT/'config/sources.json').read_text(encoding='utf-8'))
     data['site']=json.loads((ROOT/'config/site.json').read_text(encoding='utf-8'))
+    data['items'] = filter_domestic_phones(data['items'], data['sources'])
     if '--translate' in sys.argv:
         from translate import localize
         localize(data['items'])
@@ -77,7 +83,13 @@ def main():
         if file.is_file():shutil.copyfile(file,dest/file.name)
     (dest/'data').mkdir(exist_ok=True)
     (dest/'data/latest.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
-    shutil.copytree(ROOT/'docs',dest/'docs',dirs_exist_ok=True)
+    (dest/'docs').mkdir(exist_ok=True)
+    # Source inventories are local documentation, never Pages assets.
+    for name in ('数据源列表.md', '厂商与品牌关系.md'):
+        (dest/'docs'/name).unlink(missing_ok=True)
+    for document in (ROOT/'docs').glob('*.md'):
+        if document.name not in ('数据源列表.md', '厂商与品牌关系.md'):
+            shutil.copyfile(document, dest/'docs'/document.name)
     (dest/'.nojekyll').touch();rss(data,dest/'feed.xml')
     print(f'Built dist: {len(data["items"])} sourced records, {len(data["catalog"])} catalog entries')
 
