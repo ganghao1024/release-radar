@@ -7,3 +7,7 @@ dist/
 .cache/
 *.log
 node_modules/
+
+# Inventories are generated locally, not published
+docs/数据源列表.md
+docs/厂商与品牌关系.md
