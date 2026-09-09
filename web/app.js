@@ -3,15 +3,17 @@ const $ = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl = value => {try {const u=new URL(value);return ['https:','http:'].includes(u.protocol)?u.href:'#';}catch{return '#';}};
 const labels={release:'正式发布',preview:'预览 / 预告',available:'上线 / 开售',signal:'待核实线索'};
-const state={data:null,view:'news',category:'all',vendor:'all',event:'all',range:'30',query:'',limit:20};
+const state={language:'zh',data:null,view:'news',category:'all',vendor:'all',event:'all',range:'30',query:'',limit:20};
 const date = value => value ? new Date(value).toLocaleDateString('zh-CN',{month:'2-digit',day:'2-digit'}) : '日期未提供';
 const dateLong = value => value ? new Date(value).toLocaleString('zh-CN',{hour12:false}) : '未知';
 const glyph = name => String(name).replace(/[^\p{L}\p{N}]/gu,'').slice(0,2).toUpperCase();
+const display = (item, field) => state.language==='zh' ? (item[field+'_zh'] || item[field]) : item[field];
+const translationLabel = item => state.language==='original' ? '官方原文' : item.translation_status==='machine' ? '机器翻译 · 以原文为准' : item.translation_status==='original' ? '中文原文' : '翻译暂不可用 · 显示原文';
 function metric(icon,title,count,unit){return `<div class="metric"><span class="metric-icon" aria-hidden="true">${icon}</span><div><div class="metric-label">${title}</div><div class="metric-value">${count}<small>${unit}</small></div></div></div>`;}
 function within(item,days){return item.published_at && Date.now()-new Date(item.published_at).getTime()<=days*86400000 && new Date(item.published_at).getTime()<=Date.now()+86400000;}
-function matches(item){return (state.category==='all'||item.category===state.category)&&(state.vendor==='all'||item.vendor===state.vendor)&&(state.event==='all'||item.event_type===state.event)&&(state.range==='all'||within(item,Number(state.range)))&&(!state.query||[item.title,item.summary,item.vendor,item.family].join(' ').toLocaleLowerCase().includes(state.query.toLocaleLowerCase()));}
+function matches(item){return (state.category==='all'||item.category===state.category)&&(state.vendor==='all'||item.vendor===state.vendor)&&(state.event==='all'||item.event_type===state.event)&&(state.range==='all'||within(item,Number(state.range)))&&(!state.query||[item.title_zh,item.summary_zh,item.title,item.summary,item.vendor,item.family].join(' ').toLocaleLowerCase().includes(state.query.toLocaleLowerCase()));}
 function external(url,content,attrs=''){return `<a href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer" ${attrs}>${content}</a>`;}
-function card(item){return `<article class="news-card"><div class="card-meta"><span class="vendor-glyph" aria-hidden="true">${esc(glyph(item.vendor))}</span><span>${esc(item.vendor)}</span><span class="card-category ${item.category}">${item.category==='phone'?'手机':'AI'}</span><time ${item.published_at?`datetime="${esc(item.published_at)}"`:''} title="${esc(dateLong(item.published_at))}">${esc(date(item.published_at))}</time></div><h3>${external(item.url,esc(item.title))}</h3><p>${esc(item.summary||'官方公告已收录，详情请查看原文。')}</p><div class="card-bottom"><span class="pill ${item.event_type}" title="${esc(item.evidence)}">${labels[item.event_type]||'发布线索'}</span>${external(item.url,`${esc(item.source_name)} ↗`,'aria-label="查看官方原文"')}</div></article>`;}
+function card(item){return `<article class="news-card"><div class="card-meta"><span class="vendor-glyph" aria-hidden="true">${esc(glyph(item.vendor))}</span><span>${esc(item.vendor)}</span><span class="card-category ${item.category}">${item.category==='phone'?'手机':'AI'}</span><time ${item.published_at?`datetime="${esc(item.published_at)}"`:''} title="${esc(dateLong(item.published_at))}">${esc(date(item.published_at))}</time></div><h3>${external(item.url,esc(display(item,'title')))}</h3><p>${esc(display(item,'summary')||'官方公告已收录，详情请查看原文。')}</p><small class="translation-note">${translationLabel(item)}</small><div class="card-bottom"><span class="pill ${item.event_type}" title="${esc(item.evidence)}">${labels[item.event_type]||'发布线索'}</span>${external(item.url,`${esc(item.source_name)} ↗`,'aria-label="查看官方原文"')}</div></article>`;}
 function renderNews(){
   const items=state.data.items.filter(matches);
   $('result-count').textContent=`${items.length} 条动态`;
@@ -37,7 +39,7 @@ function renderSpotlights(){
     const item=state.data.items.find(i=>i.category===category&&i.published_at&&i.event_type!=='signal');
     const label=category==='phone'?'MOBILE · 手机新品':'MODELS · AI 模型';
     if(!item)return `<article class="spotlight ${category}"><div class="channel-label">${label}</div><h3>等待下一次官方发布</h3><p>来源接入状态可在“官方来源”查看。</p></article>`;
-    return `<article class="spotlight ${category}"><div class="spot-top"><span class="channel-label">${label}</span><time datetime="${esc(item.published_at)}">${esc(date(item.published_at))}</time></div><h3>${external(item.url,esc(item.title))}</h3><p>${esc(item.summary)}</p><div class="spot-bottom"><span>${esc(item.vendor)} · ${labels[item.event_type]}</span><span class="arrow" aria-hidden="true">↗</span></div></article>`;
+    return `<article class="spotlight ${category}"><div class="spot-top"><span class="channel-label">${label}</span><time datetime="${esc(item.published_at)}">${esc(date(item.published_at))}</time></div><h3>${external(item.url,esc(display(item,'title')))}</h3><p>${esc(display(item,'summary'))}</p><small class="translation-note">${translationLabel(item)}</small><div class="spot-bottom"><span>${esc(item.vendor)} · ${labels[item.event_type]}</span><span class="arrow" aria-hidden="true">↗</span></div></article>`;
   }).join('');
 }
 function renderSources(){
@@ -90,6 +92,7 @@ for(const button of document.querySelectorAll('[data-view]'))button.addEventList
 for(const button of document.querySelectorAll('[data-category]'))button.addEventListener('click',()=>{state.category=button.dataset.category;state.limit=20;renderNews();});
 for(const id of ['vendor','event','range'])$(id).addEventListener('change',()=>{state[id]=$(id).value;state.limit=20;renderNews();});
 $('search').addEventListener('input',()=>{state.query=$('search').value.trim();state.limit=20;renderNews();});
+$('language').addEventListener('change',()=>{state.language=$('language').value;renderSpotlights();renderNews();});
 $('catalog-search').addEventListener('input',renderCatalog);$('reset').addEventListener('click',reset);$('load-more').addEventListener('click',()=>{state.limit+=20;renderNews();});$('retry').addEventListener('click',load);
 window.addEventListener('hashchange',()=>state.data&&setView(location.hash.slice(1)));
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&state.view==='news'){e.preventDefault();$('search').focus();}});
