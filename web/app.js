@@ -59,7 +59,7 @@ function renderCatalog(){
     const list=entries.filter(e=>e.category===category);
     return `<section class="catalog-group"><h2>${category==='phone'?'手机品牌':'AI 模型厂商与研究机构'} · ${list.length}</h2>${list.map(e=>{
       const sources=state.data.sources.filter(s=>s.enabled&&s.catalog_ids.includes(e.id));
-      return `<details class="catalog-entry"><summary>${esc(e.vendor)}<span class="family">${esc(e.family)}</span></summary><div class="catalog-detail"><div>${e.aliases.map(a=>`<span class="alias">${esc(a)}</span>`).join('')}</div><p>${external(e.official_url,'官方入口 ↗')}</p><div>自动采集：${sources.length?sources.map(s=>external(s.url,esc(s.name))).join(' · '):'尚未接入，保留在候选目录'}</div></div></details>`;
+      return `<details class="catalog-entry"><summary>${esc(e.vendor)}<span class="family">${esc(e.family)}</span></summary><div class="catalog-detail"><div>${e.aliases.map(a=>`<span class="alias">${esc(a)}</span>`).join('')}</div><p>${e.official_url?external(e.official_url,e.category==='phone'?'国内官网 ↗':'官方入口 ↗'):'未确认国内手机官网，不接入国际版来源'}</p><div>自动采集：${sources.length?sources.map(s=>external(s.url,esc(s.name))).join(' · '):'尚未接入，保留在候选目录'}</div></div></details>`;
     }).join('')}</section>`;
   }).join('');
 }
@@ -86,7 +86,7 @@ function init(){
 async function load(){
   $('loading').hidden=false;$('error').hidden=true;$('workspace').hidden=true;
   try {const response=await fetch('./data/latest.json',{cache:'no-cache'});if(!response.ok)throw new Error(`HTTP ${response.status}`);const data=await response.json();if(!Array.isArray(data.items)||!Array.isArray(data.sources)||!Array.isArray(data.catalog))throw new Error('数据格式不完整');state.data=data;init();}
-  catch(error){$('loading').hidden=true;$('error').hidden=false;$('error-message').textContent=`${error.message}。请稍后重试，或通过来源清单直接访问官方公告。`;}
+  catch(error){$('loading').hidden=true;$('error').hidden=false;$('error-message').textContent=`${error.message}。请稍后重试，或稍后访问官方来源页面。`;}
 }
 for(const button of document.querySelectorAll('[data-view]'))button.addEventListener('click',()=>state.data&&setView(button.dataset.view));
 for(const button of document.querySelectorAll('[data-category]'))button.addEventListener('click',()=>{state.category=button.dataset.category;state.limit=20;renderNews();});
