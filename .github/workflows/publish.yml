@@ -37,7 +37,7 @@ jobs:
       - name: Collect official announcements
         run: python scripts/collect.py
       - name: Generate site and source documentation
-        run: python scripts/build.py
+        run: python scripts/build.py --translate
       - name: Save collection for next run
         uses: actions/cache/save@v4
         with:
