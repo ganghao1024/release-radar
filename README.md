@@ -27,8 +27,8 @@ python -m http.server 4173 --directory dist
 
 ## 文档
 
-- [厂商 → 品牌／模型家族 → 别名 → 官方来源](docs/厂商与品牌关系.md)
-- [数据源列表与实际运行状态](docs/数据源列表.md)
+- 厂商关系清单：本地生成 `docs/厂商与品牌关系.md`，不上传、不发布。
+- 数据源清单：本地生成 `docs/数据源列表.md`，不上传、不发布。
 - [部署、运行机制与维护](docs/部署与维护.md)
 
 ## 配置
@@ -37,7 +37,7 @@ python -m http.server 4173 --directory dist
 
 `scripts/catalog.py` 与 `scripts/sources.py` 是初始目录生成工具，日常更新应修改 JSON，不要重新运行生成工具覆盖自己的配置。
 
-`data/latest.json` 是实际抓取快照，作为无缓存时的初始数据；不是示例新闻。每次 Actions 从缓存恢复历史，重新采集并发布。线上 `/docs/数据源列表.md` 和 Actions 的 `source-audit` artifact 是该次部署的审计记录；仓库内 Markdown 是提交时快照。
+`data/latest.json` 是实际抓取快照，作为无缓存时的初始数据；不是示例新闻。每次 Actions 从缓存恢复历史，重新采集并发布。Actions 的 `source-audit` artifact 仅保存数据快照；两份清单文档只在本地保留。手机仅使用中国大陆官网，国际手机历史记录会自动过滤。
 
 ## 发布判断边界
 
