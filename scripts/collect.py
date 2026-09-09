@@ -154,7 +154,8 @@ def main():
     for old in prior.get('items',[]):
         matched=next((result for sid in old['source_ids'] if sid in source_map and (result:=classify(old,source_map[sid]))),None)
         if matched:history.append({**old,'category':matched[0],'event_type':matched[1]})
-    items=merge_items(history,current,datetime.now(timezone.utc),config['retention_days'])
+    from scripts.core import filter_domestic_phones
+    items=filter_domestic_phones(merge_items(history,current,datetime.now(timezone.utc),config['retention_days']),sources)
     success=sum(s['status'] in ['ok','partial'] for s in statuses if s['id'] in checked_ids)
     all_active={s['id'] for s in sources if s['enabled']}
     all_success=sum(s['status'] in ['ok','partial'] for s in statuses if s['id'] in all_active)
