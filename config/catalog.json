@@ -11,7 +11,9 @@
       "Pura",
       "nova"
     ],
-    "official_url": "https://consumer.huawei.com/cn/press/"
+    "official_url": "https://consumer.huawei.com/cn/press/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-002",
@@ -23,7 +25,9 @@
       "Honor",
       "Magic"
     ],
-    "official_url": "https://www.honor.com/cn/"
+    "official_url": "https://www.honor.com/cn/news/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-003",
@@ -34,7 +38,9 @@
       "小米",
       "Xiaomi"
     ],
-    "official_url": "https://www.mi.com/global/discover/news/"
+    "official_url": "https://www.mi.com/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-004",
@@ -45,7 +51,9 @@
       "红米",
       "Redmi"
     ],
-    "official_url": "https://www.mi.com/"
+    "official_url": "https://www.mi.com/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-005",
@@ -55,7 +63,9 @@
     "aliases": [
       "POCO"
     ],
-    "official_url": "https://www.mi.com/global/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-006",
@@ -67,7 +77,9 @@
       "Find",
       "Reno"
     ],
-    "official_url": "https://www.oppo.com/en/newsroom/"
+    "official_url": "https://www.oppo.com/cn/newsroom/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-007",
@@ -78,7 +90,9 @@
       "一加",
       "OnePlus"
     ],
-    "official_url": "https://www.oneplus.com/global/press"
+    "official_url": "https://www.oneplus.com/cn",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-008",
@@ -89,7 +103,9 @@
       "真我",
       "realme"
     ],
-    "official_url": "https://www.realme.com/global/newsroom"
+    "official_url": "https://www.realme.com/cn/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-009",
@@ -99,7 +115,9 @@
     "aliases": [
       "vivo"
     ],
-    "official_url": "https://www.vivo.com/en/about-vivo/news"
+    "official_url": "https://www.vivo.com.cn/brand/news/list",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-010",
@@ -109,7 +127,9 @@
     "aliases": [
       "iQOO"
     ],
-    "official_url": "https://www.iqoo.com/cn/"
+    "official_url": "https://www.iqoo.com/cn/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-011",
@@ -121,7 +141,9 @@
       "ZTE",
       "Axon"
     ],
-    "official_url": "https://www.ztedevices.com/en/news/"
+    "official_url": "https://www.ztedevices.com/cn/news/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-012",
@@ -132,7 +154,9 @@
       "努比亚",
       "nubia"
     ],
-    "official_url": "https://www.nubia.com/"
+    "official_url": "https://www.nubia.com/cn",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-013",
@@ -144,7 +168,9 @@
       "REDMAGIC",
       "Red Magic"
     ],
-    "official_url": "https://global.redmagic.gg/blogs/news"
+    "official_url": "https://www.nubia.com/cn",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-014",
@@ -155,7 +181,9 @@
       "魅族",
       "Meizu"
     ],
-    "official_url": "https://www.meizu.com/"
+    "official_url": "https://www.meizu.com/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-015",
@@ -167,7 +195,9 @@
       "Apple",
       "iPhone"
     ],
-    "official_url": "https://www.apple.com/newsroom/"
+    "official_url": "https://www.apple.com/cn/newsroom/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-016",
@@ -179,7 +209,9 @@
       "Samsung",
       "Galaxy"
     ],
-    "official_url": "https://news.samsung.com/global/"
+    "official_url": "https://www.samsung.com.cn/cn/news/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-017",
@@ -191,7 +223,9 @@
       "Google",
       "Pixel"
     ],
-    "official_url": "https://blog.google/products/devices/pixel/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-018",
@@ -203,7 +237,9 @@
       "Motorola",
       "moto"
     ],
-    "official_url": "https://motorolanews.com/"
+    "official_url": "https://www.motorola.com.cn/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-019",
@@ -214,7 +250,9 @@
       "Nothing",
       "Nothing Phone"
     ],
-    "official_url": "https://nothing.tech/blogs/news"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-020",
@@ -224,7 +262,9 @@
     "aliases": [
       "CMF"
     ],
-    "official_url": "https://cmf.tech/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-021",
@@ -235,7 +275,9 @@
       "TECNO",
       "传音"
     ],
-    "official_url": "https://www.tecno-mobile.com/news/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-022",
@@ -245,7 +287,9 @@
     "aliases": [
       "Infinix"
     ],
-    "official_url": "https://www.infinixmobility.com/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-023",
@@ -255,7 +299,9 @@
     "aliases": [
       "itel"
     ],
-    "official_url": "https://www.itel-life.com/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-024",
@@ -267,7 +313,9 @@
       "Sony",
       "Xperia"
     ],
-    "official_url": "https://www.sony.com/en/SonyInfo/News/Press/"
+    "official_url": "https://www.sony.com.cn/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-025",
@@ -279,7 +327,9 @@
       "SHARP",
       "AQUOS"
     ],
-    "official_url": "https://global.sharp/corporate/news/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-026",
@@ -292,7 +342,9 @@
       "Zenfone",
       "ROG Phone"
     ],
-    "official_url": "https://press.asus.com/"
+    "official_url": "https://www.asus.com.cn/mobile-handhelds/phones/all-series/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-027",
@@ -302,7 +354,9 @@
     "aliases": [
       "HMD"
     ],
-    "official_url": "https://www.hmd.com/en_int/press"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-028",
@@ -312,7 +366,9 @@
     "aliases": [
       "Fairphone"
     ],
-    "official_url": "https://www.fairphone.com/en/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-029",
@@ -323,7 +379,9 @@
       "Lava",
       "Agni"
     ],
-    "official_url": "https://www.lavamobiles.com/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-030",
@@ -334,7 +392,9 @@
       "Ulefone",
       "Armor"
     ],
-    "official_url": "https://www.ulefone.com/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-031",
@@ -344,7 +404,9 @@
     "aliases": [
       "DOOGEE"
     ],
-    "official_url": "https://www.doogee.cc/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-032",
@@ -354,7 +416,9 @@
     "aliases": [
       "Blackview"
     ],
-    "official_url": "https://www.blackview.hk/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-033",
@@ -364,7 +428,9 @@
     "aliases": [
       "OUKITEL"
     ],
-    "official_url": "https://oukitel.com/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-034",
@@ -376,7 +442,9 @@
       "Jelly",
       "Titan"
     ],
-    "official_url": "https://www.unihertz.com/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "phone-035",
@@ -386,7 +454,9 @@
     "aliases": [
       "AGM"
     ],
-    "official_url": "https://www.agmmobile.com/"
+    "official_url": "https://www.agmdevice.com/",
+    "region": "CN",
+    "source_note": "国内官网入口"
   },
   {
     "id": "phone-036",
@@ -397,7 +467,9 @@
       "8849",
       "Tank"
     ],
-    "official_url": "https://8849tech.com/"
+    "official_url": "",
+    "region": "CN",
+    "source_note": "未确认中国大陆手机官网，不接入国际版来源"
   },
   {
     "id": "ai-037",
