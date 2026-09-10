@@ -1,4 +1,6 @@
 import unittest
+import json
+from pathlib import Path
 from scripts.core import domestic_phone_url, filter_domestic_phones
 
 
@@ -26,6 +28,14 @@ class DomesticPhoneTests(unittest.TestCase):
         source = {**self.source, 'article_prefixes': ['https://www.vivo.com.cn/brand/news/detail']}
         self.assertTrue(domestic_phone_url('https://www.vivo.com.cn/brand/news/detail?id=1385&type=0', source))
         self.assertFalse(domestic_phone_url('https://www.vivo.com.cn/brand/news/detail?id=1385', {**source, 'enabled': False}))
+
+    def test_apple_china_feed_uses_dot_cn_article_domain(self):
+        sources = json.loads((Path(__file__).parents[1]/'config/sources.json').read_text(encoding='utf-8'))
+        source = next(item for item in sources if item['id'] == 'apple-cn')
+        self.assertEqual(source['url'], 'https://www.apple.com.cn/newsroom/rss-feed.rss')
+        self.assertTrue(domestic_phone_url(
+            'https://www.apple.com.cn/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/',
+            source))
 
 
 if __name__ == '__main__':

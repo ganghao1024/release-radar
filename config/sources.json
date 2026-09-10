@@ -2,7 +2,7 @@
   {
     "id": "apple-cn",
     "name": "Apple 中国 Newsroom",
-    "url": "https://www.apple.com/cn/newsroom/rss-feed.rss",
+    "url": "https://www.apple.com.cn/newsroom/rss-feed.rss",
     "kind": "rss",
     "enabled": true,
     "catalog_ids": [
@@ -17,7 +17,7 @@
       "iPhone"
     ],
     "article_prefixes": [
-      "https://www.apple.com/cn/newsroom/"
+      "https://www.apple.com.cn/newsroom/"
     ],
     "region": "CN"
   },
