@@ -329,7 +329,7 @@
   {
     "id": "bfl",
     "name": "Black Forest Labs 公告",
-    "url": "https://bfl.ai/announcements",
+    "url": "https://bfl.ai/blog",
     "kind": "html",
     "enabled": true,
     "catalog_ids": [
@@ -338,7 +338,7 @@
     "categories": [
       "ai"
     ],
-    "pattern": "/announcements/[^/?#]+/?$",
+    "pattern": "/blog/[^/?#]+/?$",
     "note": "",
     "terms": []
   },

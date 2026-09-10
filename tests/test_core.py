@@ -43,6 +43,15 @@ class ClassificationTests(unittest.TestCase):
     def test_accessory_with_phone_name_is_excluded(self):
         self.assertIsNone(classify(self.row('New accessories for Pixel 11 phones are here.'),{'categories':['phone'],'terms':['Pixel']}))
         self.assertIsNone(classify(self.row('Introducing new cases for iPhone 17'),self.phone))
+    def test_corporate_phone_appearance_is_not_a_product_release(self):
+        source={'categories':['phone'],'terms':['vivo','手机']}
+        generic='vivo-智能手机官网'
+        self.assertIsNone(classify(self.row('vivo亮相ITU峰会 端侧智能体安全方案获全球认可',generic),source))
+        self.assertEqual(classify(self.row('打造AI轻办公神器 vivo X Fold6折叠旗舰正式发布',generic),source),('phone','release'))
+    def test_model_release_research_is_not_a_product_release(self):
+        self.assertIsNone(classify(self.row('Predicting model behavior before release by simulating deployment'),self.ai))
+        self.assertIsNone(classify(self.row('GPT-5.5 Bio Bug Bounty'),self.ai))
+        self.assertEqual(classify(self.row('Introducing GPT-5.5'),self.ai),('ai','release'))
     def test_alias_word_boundaries(self):
         self.assertTrue(has_term('Qwen3 release','Qwen'));self.assertFalse(has_term('stepping up','Step'));self.assertFalse(has_term('innovation','Nova'))
     def test_google_split(self):

@@ -76,11 +76,12 @@ def classify(row,source):
     if len(source['categories'])>1:category='phone' if re.search(r'\bpixel\s*(?:\d|fold|phone)',text,re.I) else 'ai'
     if category=='phone':
         if not re.search(r'iphone|smartphone|\bphone\b|galaxy\s*[szamf]\s*\d|pixel\s*(?:\d|fold)|redmagic\s*\d|手机',text,re.I):return None
+        if re.search(r'峰会|论坛|获.{0,12}(?:认可|认证|奖)|战略合作|合作协议|生态伙伴|公益活动',title,re.I):return None
         if re.search(r'accessor|\bcases?\s+for\b|\bchargers?\b|配件|保护壳|充电器',title,re.I):return None
         if re.search(r'\b(case|cases|charger|cooler|earbuds|headphones|watch|tablet)\b',title,re.I) and not re.search(r'\bphone|iphone|smartphone|手机',title,re.I):return None
     else:
         if not re.search(r'model|gpt|claude|gemini|gemma|grok|qwen|deepseek|mistral|ministral|codestral|devstral|voxtral|flux|stable diffusion|nemotron|cosmos|nova|titan|phi-|mai-|midjourney|模型|minimax|sora|veo|imagen|lyria',text,re.I):return None
-        if re.search(r'funding|acqui[rs]|partnership|appoint|economic|system card|safety overview|safeguard|hardware standard|\bplugin\b|journalism|\bpolicy\b|\breport\b|\bhow\b|\bwith\s+(?:gpt|claude|gemini)|融资|收购|任命',title,re.I):return None
+        if re.search(r'funding|acqui[rs]|partnership|appoint|economic|system card|safety overview|safeguard|hardware standard|\bplugin\b|journalism|\bpolicy\b|\breport\b|\bhow\b|\bwith\s+(?:gpt|claude|gemini)|before release|bug bounty|融资|收购|任命',title,re.I):return None
         # "GPT" must not match the ChatGPT app name. Model family must be in the
         # headline, or an explicit model release must be described in the lead.
         model_title=re.search(r'(?<![a-z])(?:gpt(?:-|\s|\d)|claude|gemini|gemma|grok|qwen|deepseek|mistral|ministral|codestral|devstral|voxtral|flux|stable diffusion|nemotron|cosmos|nova|titan|phi-|mai-|minimax|sora|veo|imagen|lyria)|\bmodels?\b|模型',title,re.I)
