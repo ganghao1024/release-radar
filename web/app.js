@@ -99,7 +99,7 @@ function init(){
     $('stale-banner').hidden=false;$('stale-banner').textContent=ageHours>3?`数据已超过 ${Math.floor(ageHours)} 小时未更新。当前显示上次采集结果，请检查 GitHub Actions 运行状态。`:'本次来源不可读，正在显示此前采集记录。';
   }
   const vendorCounts=new Map();for(const i of d.items)vendorCounts.set(i.vendor,(vendorCounts.get(i.vendor)||0)+1);
-  $('quick-brands').innerHTML=[...vendorCounts].sort((a,b)=>b[1]-a[1]).slice(0,8).map(([v,n])=>`<button class="quick-brand" data-vendor="${esc(v)}"><span class="vendor-glyph">${esc(glyph(v))}</span>${esc(v)}<span class="number">${n}</span></button>`).join('');
+  $('quick-brands').innerHTML=[...vendorCounts].sort((a,b)=>b[1]-a[1]).slice(0,8).map(([v,n])=>`<button class="quick-brand" data-vendor="${esc(v)}" title="${esc(v)} · ${n} 条动态"><span class="vendor-glyph">${esc(glyph(v))}</span><span class="quick-brand-name">${esc(v)}</span><span class="number" aria-label="${n} 条动态">${n}</span></button>`).join('');
   $('vendor').innerHTML='<option value="all">全部厂商</option>'+[...vendorCounts.keys()].sort((a,b)=>a.localeCompare(b,'zh-CN')).map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
   for(const button of document.querySelectorAll('[data-vendor]'))button.addEventListener('click',()=>{state.vendor=button.dataset.vendor;state.category='all';state.range='all';state.limit=20;$('vendor').value=state.vendor;$('range').value='all';setView('news');renderNews();});
   $('footer-count').textContent=`${d.catalog.length} 条品牌关系`;

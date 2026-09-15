@@ -20,3 +20,8 @@
 :where(.metric,.spotlight,.news-card)>*{position:relative;z-index:1}
 @media(hover:hover){:where(.metric,.spotlight,.news-card):hover::before,:where(.metric,.spotlight,.news-card):focus-within::before{opacity:1}.metric,.spotlight{transition:transform .22s ease,border-color .22s ease}.metric:hover,.spotlight:hover{transform:translateY(-2px);border-color:#40504b}}
 @media(prefers-reduced-motion:reduce){:where(.metric,.spotlight,.news-card)::before{display:none}}
+
+/* Keep vendor labels compact and aligned in the narrow sidebar. */
+.quick-brand{gap:8px;padding-left:8px;padding-right:8px;font-size:12.5px;min-width:0}
+.quick-brand-name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left;line-height:1.4}
+.quick-brand .number{min-width:18px;margin-left:2px;text-align:right;font-variant-numeric:tabular-nums}
