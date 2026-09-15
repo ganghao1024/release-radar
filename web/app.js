@@ -9,7 +9,24 @@ const dateLong = value => value ? new Date(value).toLocaleString('zh-CN',{hour12
 const glyph = name => String(name).replace(/[^\p{L}\p{N}]/gu,'').slice(0,2).toUpperCase();
 const display = (item, field) => state.language==='zh' ? (item[field+'_zh'] || item[field]) : item[field];
 const translationLabel = item => state.language==='original' ? '官方原文' : item.translation_status==='machine' ? '机器翻译 · 以原文为准' : item.translation_status==='original' ? '中文原文' : '翻译暂不可用 · 显示原文';
-function metric(icon,title,count,unit){return `<div class="metric"><span class="metric-icon" aria-hidden="true">${icon}</span><div><div class="metric-label">${title}</div><div class="metric-value">${count}<small>${unit}</small></div></div></div>`;}
+function metric(icon,title,count,unit){return `<div class="metric"><span class="metric-icon" aria-hidden="true">${icon}</span><div><div class="metric-label">${title}</div><div class="metric-value"><span data-count-up="${Number(count)}">${count}</span><small>${unit}</small></div></div></div>`;}
+const reducedMotion=()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function animateCounts(root){
+  for(const element of root.querySelectorAll('[data-count-up]')){
+    const target=Number(element.dataset.countUp);
+    if(!Number.isFinite(target)||reducedMotion()){element.textContent=String(target);continue;}
+    const started=performance.now(),duration=650;element.textContent='0';
+    const step=now=>{const progress=Math.min((now-started)/duration,1),eased=1-Math.pow(1-progress,3);element.textContent=String(Math.round(target*eased));if(progress<1)requestAnimationFrame(step);};
+    requestAnimationFrame(step);
+  }
+}
+function revealItems(root,selector){
+  if(reducedMotion()||!Element.prototype.animate)return;
+  [...root.querySelectorAll(selector)].forEach((element,index)=>{
+    const animation=element.animate([{opacity:0,transform:'translateY(10px)'},{opacity:1,transform:'translateY(0)'}],{duration:380,delay:Math.min(index*35,210),easing:'cubic-bezier(.22,1,.36,1)',fill:'both'});
+    animation.finished.then(()=>animation.cancel()).catch(()=>{});
+  });
+}
 function within(item,days){return item.published_at && Date.now()-new Date(item.published_at).getTime()<=days*86400000 && new Date(item.published_at).getTime()<=Date.now()+86400000;}
 function matches(item){return (state.category==='all'||item.category===state.category)&&(state.vendor==='all'||item.vendor===state.vendor)&&(state.event==='all'||item.event_type===state.event)&&(state.range==='all'||within(item,Number(state.range)))&&(!state.query||[item.title_zh,item.summary_zh,item.title,item.summary,item.vendor,item.family].join(' ').toLocaleLowerCase().includes(state.query.toLocaleLowerCase()));}
 function external(url,content,attrs=''){return `<a href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer" ${attrs}>${content}</a>`;}
@@ -18,6 +35,7 @@ function renderNews(){
   const items=state.data.items.filter(matches);
   $('result-count').textContent=`${items.length} 条动态`;
   $('news-grid').innerHTML=items.length?items.slice(0,state.limit).map(card).join(''):'<div class="empty"><strong>这个范围内还没有发布信号</strong><p>试试其他厂商或“全部归档”。未知发布日期的记录只在全部归档中显示。</p><button class="secondary-button" id="empty-reset">重置筛选</button></div>';
+  revealItems($('news-grid'),'.news-card');
   $('empty-reset')?.addEventListener('click',reset);
   $('load-more').hidden=items.length<=state.limit;
   for(const button of document.querySelectorAll('[data-category]'))button.classList.toggle('selected',button.dataset.category===state.category);
@@ -33,6 +51,7 @@ function setView(view){
   const names={news:'发布动态',sources:'官方来源',catalog:'厂商目录'};
   $('breadcrumb-current').textContent=names[view];$('page-title').innerHTML=names[view]+'<span class="title-dot">.</span>';
   $('page-description').textContent={news:'新手机，新模型。从官方公告开始。',sources:'看得见来源，也看得见每一次采集的状态。',catalog:'从厂商到别名，建立完整的关注地图。'}[view];
+  revealItems($(view+'-view'),':scope > *');
 }
 function renderSpotlights(){
   $('spotlights').innerHTML=['phone','ai'].map(category=>{
@@ -41,16 +60,19 @@ function renderSpotlights(){
     if(!item)return `<article class="spotlight ${category}"><div class="channel-label">${label}</div><h3>等待下一次官方发布</h3><p>来源接入状态可在“官方来源”查看。</p></article>`;
     return `<article class="spotlight ${category}"><div class="spot-top"><span class="channel-label">${label}</span><time datetime="${esc(item.published_at)}">${esc(date(item.published_at))}</time></div><h3>${external(item.url,esc(display(item,'title')))}</h3><p>${esc(display(item,'summary'))}</p><small class="translation-note">${translationLabel(item)}</small><div class="spot-bottom"><span>${esc(item.vendor)} · ${labels[item.event_type]}</span><span class="arrow" aria-hidden="true">↗</span></div></article>`;
   }).join('');
+  revealItems($('spotlights'),'.spotlight');
 }
 function renderSources(){
   const data=state.data,enabled=data.sources.filter(s=>s.enabled),health=new Map(data.source_status.map(s=>[s.id,s]));
   const readable=enabled.filter(s=>['ok','partial'].includes(health.get(s.id)?.status)).length;
   $('source-metrics').innerHTML=metric('◉','本次可读取',readable,`/ ${enabled.length} 个自动采集源`)+metric('◷','需要检查',enabled.length-readable,'失败或尚未验证')+metric('▦','候选官方入口',data.sources.length-enabled.length,'未计入自动采集');
+  animateCounts($('source-metrics'));
   const header='<div class="source-row header"><span>来源 / 方式</span><span>运行状态</span><span>读取 / 匹配</span><span>最近文章 / 说明</span></div>';
   function row(s){const h=health.get(s.id),status=s.enabled?(h?.status||'pending'):'candidate';const name={ok:'读取成功',partial:'部分成功',error:'读取失败',pending:'尚未验证',candidate:'候选入口'}[status];
     return `<div class="source-row"><div>${external(s.url,esc(s.name)+' ↗')}<small>${s.kind==='rss'?'官方 RSS / Atom':s.kind==='html'?'官方网页解析':'待核实、待适配'}</small></div><div><span class="health ${status}">${name}</span><small>${h?'检查 '+date(h.checked_at):'未启用'}</small></div><div>${h?`${h.raw_count} / ${h.matched_count}`:'—'}<small>${h?.newest_article_at?'最近 '+date(h.newest_article_at):'日期未知'}</small></div><div class="note">${esc(s.note||'官方发布内容，按规则筛选。')}${h?.error?`<details><summary>查看诊断</summary>${esc(h.error)}</details>`:''}</div></div>`;
   }
   $('source-list').innerHTML=`<section class="source-section"><h2>自动采集 · ${enabled.length}</h2><div class="source-table">${header}${enabled.map(row).join('')}</div></section><section class="source-section"><h2>候选入口 · ${data.sources.length-enabled.length}</h2><div class="source-table">${data.sources.filter(s=>!s.enabled).map(row).join('')}</div></section>`;
+  revealItems($('source-list'),'.source-row:not(.header)');
 }
 function renderCatalog(){
   const query=$('catalog-search').value.trim().toLocaleLowerCase();
@@ -62,11 +84,13 @@ function renderCatalog(){
       return `<details class="catalog-entry"><summary>${esc(e.vendor)}<span class="family">${esc(e.family)}</span></summary><div class="catalog-detail"><div>${e.aliases.map(a=>`<span class="alias">${esc(a)}</span>`).join('')}</div><p>${e.official_url?external(e.official_url,e.category==='phone'?'国内官网 ↗':'官方入口 ↗'):'未确认国内手机官网，不接入国际版来源'}</p><div>自动采集：${sources.length?sources.map(s=>external(s.url,esc(s.name))).join(' · '):'尚未接入，保留在候选目录'}</div></div></details>`;
     }).join('')}</section>`;
   }).join('');
+  revealItems($('catalog-list'),'.catalog-entry');
 }
 function init(){
   const d=state.data,enabled=d.sources.filter(s=>s.enabled).length,ok=d.source_status.filter(s=>['ok','partial'].includes(s.status)).length;
   const recent=d.items.filter(i=>within(i,30));
   $('metrics').innerHTML=metric('▯','手机新品',recent.filter(i=>i.category==='phone').length,'条 · 近 30 天')+metric('✳','AI 模型动态',recent.filter(i=>i.category==='ai').length,'条 · 近 30 天')+metric('◉','官方采集源',ok,`/ ${enabled} 个本次可读`);
+  animateCounts($('metrics'));
   $('nav-count').textContent=d.items.length;$('today').textContent=new Date().toLocaleDateString('zh-CN',{year:'numeric',month:'long',day:'numeric'});
   $('updated').textContent='最近检查 '+dateLong(d.generated_at);
   const ageHours=(Date.now()-new Date(d.generated_at).getTime())/3600000;
@@ -96,4 +120,9 @@ $('language').addEventListener('change',()=>{state.language=$('language').value;
 $('catalog-search').addEventListener('input',renderCatalog);$('reset').addEventListener('click',reset);$('load-more').addEventListener('click',()=>{state.limit+=20;renderNews();});$('retry').addEventListener('click',load);
 window.addEventListener('hashchange',()=>state.data&&setView(location.hash.slice(1)));
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&state.view==='news'){e.preventDefault();$('search').focus();}});
+document.addEventListener('pointermove',event=>{
+  if(reducedMotion()||(event.pointerType&&event.pointerType!=='mouse'))return;
+  const card=event.target.closest?.('.metric,.spotlight,.news-card');if(!card)return;
+  const rect=card.getBoundingClientRect();card.style.setProperty('--pointer-x',`${event.clientX-rect.left}px`);card.style.setProperty('--pointer-y',`${event.clientY-rect.top}px`);
+});
 load();

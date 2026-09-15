@@ -11,3 +11,12 @@
 .news-card p,.spotlight p,.search input,.filter-row select,.filter-row label,.source-row,.document-links a{font-size:14px}
 .news-card h3{font-size:18px}.sidebar-bottom{font-size:12px}.search input{width:225px}
 @media(max-width:700px){.search input{width:100%}.channel-label{font-size:10px}.spotlight p{display:none}.spotlight h3{font-size:16px}.filter-row label,.filter-row select,.result-count,.text-button{font-size:12px}.source-row{font-size:14px}.metric-value small{font-size:10px}.metric-label{font-size:11px}.card-meta{flex-wrap:wrap}.card-meta time{margin-left:auto}.section-line>span{font-size:11px}}
+@media(max-width:700px){.navigation .nav-button>span:first-child{display:none}.nav-button{gap:5px}.spotlights{grid-template-columns:1fr}.spotlight{min-height:180px}}
+
+/* Lightweight interaction patterns adapted for this static site from React Bits. */
+:where(.metric,.spotlight,.news-card){--pointer-x:50%;--pointer-y:50%;isolation:isolate}
+:where(.metric,.spotlight,.news-card)::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(360px circle at var(--pointer-x) var(--pointer-y),rgba(182,242,121,.105),transparent 72%);opacity:0;transition:opacity .35s ease}
+.spotlight.ai::before{background:radial-gradient(360px circle at var(--pointer-x) var(--pointer-y),rgba(182,163,255,.13),transparent 72%)}
+:where(.metric,.spotlight,.news-card)>*{position:relative;z-index:1}
+@media(hover:hover){:where(.metric,.spotlight,.news-card):hover::before,:where(.metric,.spotlight,.news-card):focus-within::before{opacity:1}.metric,.spotlight{transition:transform .22s ease,border-color .22s ease}.metric:hover,.spotlight:hover{transform:translateY(-2px);border-color:#40504b}}
+@media(prefers-reduced-motion:reduce){:where(.metric,.spotlight,.news-card)::before{display:none}}
